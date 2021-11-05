@@ -1,0 +1,218 @@
+/* ========================================================== */
+/*                       VARIOUS STYLES                       */
+/* ========================================================== */
+
+:focus { outline: none; }
+
+/* centering bootstrap modal */
+.modal-center {
+	top: 40%!important;
+	transform: translateY(-50%)!important;
+}
+
+
+/* ========================================================== */
+/*                     SLICK SLIDER THEME                     */
+/* ========================================================== */
+
+.slick-loading .slick-list {
+	/* ajax loading styles here */
+}
+
+/* default arrows position */
+.slick-prev, .slick-next { top: calc( 50% - 1rem ); }
+.slick-prev { left: -2rem; }
+.slick-next { right: -2rem; }
+
+/* arrows position for testimonial slider */
+.testimonial-slider .slick-prev, .testimonial-slider .slick-next { top: unset; bottom: 0; }
+.testimonial-slider .slick-prev { left: calc( 50% - 1rem - 1.25rem ); }
+.testimonial-slider .slick-next { left: calc( 50% - 1rem + 1.25rem); }
+.testimonial-slider.slick-slider { padding-bottom: 3rem }
+
+/* arrows all styles */
+.slick-prev, .slick-next {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	padding: 0;
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.slick-prev:before, .slick-next:before {
+	/* add fonts symbol */
+	font-family: 'Line Awesome Free';
+	font-weight: 900;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	font-size: 2rem;
+	color: #222222
+}
+.slick-prev:before { content: "\f104" }
+.slick-next:before { content: "\f105" }
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+	color: transparent;
+	outline: none;
+	background: transparent;
+}
+
+/* Dots */
+.slick-dotted.slick-slider { margin-bottom: 30px; }
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+		margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover, .slick-dots li button:focus {
+    outline: none;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    opacity: 1;
+}
+.slick-dots li button:before {
+	  font-family: Arial;
+    font-size: 2rem;
+    line-height: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+
+/* slider placeholder before loading */
+.slider.placeholder>* { display: none; }
+.slider.placeholder:before {
+	/* add fonts symbol */
+	content: "\f019";
+	font-family: 'Line Awesome Free';
+	font-weight: 900;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	display: block
+	line-height: 1;
+	font-size: 4rem;
+	color: #aaaaaa;
+	display: block;
+	text-align: center;
+	padding: 3rem 0;
+}
+
+
+/* ========================================================== */
+/*                          FORMS CSS                         */
+/* ========================================================== */
+
+/* form phone field style fixes
+------------------------------------------------ */
+.iti.iti--allow-dropdown {
+	width: 100%;
+}
+#error-msg { color: red; }
+#valid-msg { color: #00C900; }
+input.error { border: 1px solid #FF7C7C; }
+.hide { display: none!important; }
+
+/* form warning styling */
+#form input,
+#form select {
+	margin-bottom: 26px;
+}
+#form input.error,
+#form select.error {
+	margin-bottom: 2px;
+	color:  #B33A3A;
+}
+#form #phone {
+	margin-bottom: 0;
+}
+#form label.error {
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 0;
+	margin-left: 1rem;
+	margin-top: 0;
+	margin-bottom: 6px;
+	color: #B33A3A;
+}
+#form label.error::before {
+	content: "* ";
+}
+#form input::-ms-input-placeholder, #form input:-ms-input-placeholder,
+#form input::placeholder { color: #dedbdd; opacity: 1; }
+input#phone::-webkit-input-placeholder { color: #dedbdd; }
+
+/* error messages
+----------------------------------------------- */
+#error-msg, #valid-msg, #valid-mail, #phone-msg-placeholder {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 0;
+	margin-left: 1rem;
+	margin-top: 0;
+	margin-bottom: 6px;
+	color: #B33A3A;
+}
+#valid-msg, #valid-mail { color: #558253; }
+#phone-msg-placeholder { color: transparent; }
+#error-msg:not(.hide):before { content: "* "; }
+
+/*manage valid message for email*/
+#valid-mail { display: none; }
+input#i-mail.valid + #valid-mail, input#i-mail.valid + #i-mail-error + #valid-mail {
+	display: block;
+}
+#form input#i-mail.valid { margin-bottom: 2px; }
