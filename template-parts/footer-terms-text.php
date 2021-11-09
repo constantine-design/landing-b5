@@ -6,81 +6,144 @@ $host_link = '<a href="https://'.$host.'">https://'.$host."/</a>";
 <?php if ( !(isset($is_landing) && $is_landing==true) ) exit; ?>
 
         <!-- Footer modal content -->
-        <p>Welcome to <?= SITE_NAME ?>!</p>
-        <p>These terms and conditions outline the rules and regulations for the use of Investwineclub's Website, located at <?= $host_link ?>/.</p>
-        <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use <?= $host_link ?> if you do not agree to take all of the terms and conditions stated on this page.</p>
-        <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
-        <h3><strong>Cookies</strong></h3>
-        <p>We employ the use of cookies. By accessing <?= $host_link ?>, you agreed to use cookies in agreement with the Investwineclub's Privacy Policy. </p>
-        <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
-        <h3><strong>License</strong></h3>
-        <p>Unless otherwise stated, Investwineclub and/or its licensors own the intellectual property rights for all material on <?= $host_link ?>. All intellectual property rights are reserved. You may access this from <?= $host_link ?> for your own personal use subjected to restrictions set in these terms and conditions.</p>
-        <p>You must not:</p>
+        <h2 class="mt-3 mb-4">SITE&nbsp;: <?= SITE_NAME ?>!</h2>
+
+        <p class="lead font-weight-bold">MULTIMEDIA SERVICES</p>
+        <p>146 RUE LA FAYETTE 75010 PARIS</p>
+        <p><b><a href="mailto:<?= SITE_EMAIL ?>"><?= SITE_EMAIL ?></a></b></p>
+        <p>Numéro de Siret :&nbsp;81425559200010</p>
+        <p>FORME JURIDIQUE SARL au Capital de 900 E NUMERO DE TVA INTRACOMMUNAUTAIRE FR74814255592</p>
+        <p>
+          Carte professionnelle portant la mention "Transactions sur immeubles et fonds de commerce", n° T15883 délivrée par la préfecture de Police de Paris. : n° T15883
+        </p>
+
+
+
+        <h2>Définitions</h2>
+
+        <p><b>Client&nbsp;:</b>&nbsp;tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présente conditions générales.</p>
+        <p><b>Prestations et Services&nbsp;:</b> <strong><?= $host_link ?></strong> met à disposition des Clients&nbsp;:</p>
+        <p><b>Contenu&nbsp;:</b>&nbsp;Ensemble des éléments constituants l’information présente sur le Site du Client, notamment textes – images – vidéos.</p>
+        <p><b>Informations clients&nbsp;:</b> Ci après dénommé «&nbsp;Information (s)&nbsp;» qui correspondent à l’ensemble des données personnelles susceptibles d’être détenues par <strong><?= $host_link ?></strong> pour la gestion de votre compte, de la gestion de la relation client et à des fin d’analyses et de statistiques.</p>
+        <p><b>Utilisateur :</b> Internaute se connectant, utilisant le site susnommé.</p>
+        <p><b>Informations personnelles :</b> « Les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).</p>
+        <p>Les termes «&nbsp;données à caractère personnel&nbsp;», «&nbsp;personne concernée&nbsp;», «&nbsp;sous traitant&nbsp;» et «&nbsp;données sensibles&nbsp;» ont le sens défini par le Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679)</p>
+
+        <h2>1. Présentation du site internet.</h2>
+
+        <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet&nbsp;<strong><?= $host_link ?></strong>&nbsp;l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi:</p>
+        <p><strong>Propriétaire</strong> : MULTIMEDIA SERVICES LEGAL FORM SARL with a Capital of 900 E INTRACOMMUNITY VAT NUMBER FR74814255592, 146 RUE LA FAYETTE 75010 PARIS</p>
+        <p><strong>Responsable publication</strong> : <?= SITE_NAME ?> – <a href="mailto:<?= SITE_EMAIL ?>"><?= SITE_EMAIL ?></a> Le responsable publication est une personne physique ou une personne morale.</p>
+        <p><strong>Hébergeur</strong> : ovh – 2 rue Kellermann 59100 Roubaix 1007</p>
+
+        <h2>2. Conditions générales d’utilisation du site et des services proposés.</h2>
+
+        <p>Le Site constitue une œuvre de l’esprit protégée par les dispositions du Code de la Propriété Intellectuelle et des Réglementations Internationales applicables.  Le Client ne peut en aucune manière réutiliser, céder ou exploiter pour son propre compte tout ou partie des éléments ou travaux du Site.</p>
+        <p>L’utilisation du site&nbsp;<strong><?= $host_link ?></strong>&nbsp;implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site&nbsp;<strong><?= $host_link ?></strong>&nbsp;sont donc invités à les consulter de manière régulière.</p>
+        <p>Ce site internet est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée par <strong><?= $host_link ?></strong>, qui s’efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l’intervention. Le site web&nbsp;<strong><?= $host_link ?></strong>&nbsp;est mis à jour régulièrement par <strong><?= $host_link ?></strong> responsable. De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance.</p>
+
+        <h2>3. Description des services fournis.</h2>
+
+        <p>Le site internet&nbsp;<strong><?= $host_link ?></strong>&nbsp;a pour objet de fournir une information concernant l’ensemble des activités de la société. <strong><?= $host_link ?></strong> s’efforce de fournir sur le site&nbsp;<strong><?= $host_link ?></strong>&nbsp;des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des oublis, des inexactitudes et des carences dans la mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.</p>
+        <p>Toutes les informations indiquées sur le site&nbsp;<strong><?= $host_link ?></strong>&nbsp;sont données à titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les renseignements figurant sur le site&nbsp;<strong><?= $host_link ?></strong>&nbsp;ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne.</p>
+
+        <h2>4. Limitations contractuelles sur les données techniques.</h2>
+
+        <p>Le site utilise la technologie JavaScript. Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour Le site <strong><?= $host_link ?></strong> est hébergé chez un prestataire sur le territoire de l’Union Européenne conformément aux dispositions du Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679)</p>
+        <p>L’objectif est d’apporter une prestation qui assure le meilleur taux d’accessibilité. L’hébergeur assure la continuité de son service 24 Heures sur 24, tous les jours de l’année. Il se réserve néanmoins la possibilité d’interrompre le service d’hébergement pour les durées les plus courtes possibles notamment à des fins de maintenance, d’amélioration de ses infrastructures, de défaillance de ses infrastructures ou si les Prestations et Services génèrent un trafic réputé anormal.</p>
+        <p><strong><?= $host_link ?></strong> et l’hébergeur ne pourront être tenus responsables en cas de dysfonctionnement du réseau Internet, des lignes téléphoniques ou du matériel informatique et de téléphonie lié notamment à l’encombrement du réseau empêchant l’accès au serveur.</p>
+
+        <h2>5. Propriété intellectuelle et contrefaçons.</h2>
+
+        <p><strong><?= $host_link ?></strong> est propriétaire des droits de propriété intellectuelle et détient les droits d’usage sur tous les éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, icônes et sons. Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : <strong><?= $host_link ?></strong>.</p>
+
+        <p>Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
+
+        <h2>6. Limitations de responsabilité.</h2>
+
+        <p><strong><?= $host_link ?></strong> agit en tant qu’éditeur du site. <strong><?= $host_link ?></strong> &nbsp;est responsable de la qualité et de la véracité du Contenu qu’il publie.</p>
+        <p><strong><?= $host_link ?></strong> ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site internet <strong><?= $host_link ?></strong>, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une incompatibilité.</p>
+        <p><strong><?= $host_link ?></strong> ne pourra également être tenu responsable des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation du site&nbsp;<strong><?= $host_link ?></strong>. Des espaces interactifs (possibilité de poser des questions dans l’espace contact) sont à la disposition des utilisateurs. <strong><?= $host_link ?></strong> se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, <strong><?= $host_link ?></strong> se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie …).</p>
+
+        <h2>7. Gestion des données personnelles.</h2>
+
+        <p>Le Client est informé des réglementations concernant la communication marketing, la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679).</p>
+
+        <h3 class="h4">7.1 Responsables de la collecte des données personnelles</h3>
+
+        <p>Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de sa navigation sur le Site, le responsable du traitement des Données Personnelles est : <?= SITE_NAME ?>. <strong><?= $host_link ?></strong> est représenté par <?= SITE_NAME ?> SEO, son représentant légal.</p>
+        <p>En tant que responsable du traitement des données qu’il collecte, <strong><?= $host_link ?></strong> s’engage à respecter le cadre des dispositions légales en vigueur. Il lui appartient notamment au Client d’établir les finalités de ses traitements de données, de fournir à ses prospects et clients, à partir de la collecte de leurs consentements, une information complète sur le traitement de leurs données personnelles et de maintenir un registre des traitements conforme à la réalité. Chaque fois que <strong><?= $host_link ?></strong> traite des Données Personnelles, <strong><?= $host_link ?></strong> prend toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des Données Personnelles au regard des finalités pour lesquelles <strong><?= $host_link ?></strong> les traite.</p>
+
+        <h3 class="h4">7.2 Finalité des données collectées</h3>
+
+        <p><strong><?= $host_link ?></strong> est susceptible de traiter tout ou partie des données :</p>
         <ul>
-        <li>Republish material from <?= $host_link ?></li>
-        <li>Sell, rent or sub-license material from <?= $host_link ?></li>
-        <li>Reproduce, duplicate or copy material from <?= $host_link ?></li>
-        <li>Redistribute content from <?= $host_link ?></li>
+           <li>pour permettre la navigation sur le Site et la gestion et la traçabilité des prestations et services commandés par l’utilisateur : données de connexion et d’utilisation du Site, facturation, historique des commandes, etc.</li>
+           <li>pour prévenir et lutter contre la fraude informatique (spamming, hacking…) : matériel informatique utilisé pour la navigation, l’adresse IP, le mot de passe (hashé)</li>
+           <li>pour améliorer la navigation sur le Site : données de connexion et d’utilisation</li>
+           <li>pour mener des enquêtes de satisfaction facultatives sur <strong><?= $host_link ?></strong> : adresse email</li>
         </ul>
-        <p>This Agreement shall begin on the date hereof.</p>
-        <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Investwineclub does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Investwineclub,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Investwineclub shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
-        <p>Investwineclub reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
-        <p>You warrant and represent that:</p>
+        <p><strong><?= $host_link ?></strong> ne commercialise pas vos données personnelles qui sont donc uniquement utilisées par nécessité ou à des fins statistiques et d’analyses.</p>
+
+        <h3 class="h4">7.3 Droit d’accès, de rectification et d’opposition</h3>
+
+        <p> Conformément à la réglementation européenne en vigueur, les Utilisateurs de <strong><?= $host_link ?></strong> disposent des droits suivants :</p>
         <ul>
-        <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
-        <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
-        <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
-        <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
+           <li>droit d'accès (article 15 RGPD) et de rectification (article 16 RGPD), de mise à jour, de complétude des données des Utilisateurs droit de verrouillage ou d’effacement des données des Utilisateurs à caractère personnel (article 17 du RGPD), lorsqu’elles sont inexactes, incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou la conservation est interdite</li>
+           <li>droit de retirer à tout moment un consentement (article 13-2c RGPD)</li>
+           <li>droit à la limitation du traitement des données des Utilisateurs (article 18 RGPD)</li>
+           <li>droit d’opposition au traitement des données des Utilisateurs (article 21 RGPD)</li>
+           <li>droit à la portabilité des données que les Utilisateurs auront fournies, lorsque ces données font l’objet de traitements automatisés fondés sur leur consentement ou sur un contrat (article 20 RGPD)</li>
+           <li>droit de définir le sort des données des Utilisateurs après leur mort et de choisir à qui <strong><?= $host_link ?></strong> devra communiquer (ou non) ses données à un tiers qu’ils aura préalablement désigné</li>
         </ul>
-        <p>You hereby grant Investwineclub a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
-        <h3><strong>Hyperlinking to our Content</strong></h3>
-        <p>The following organizations may link to our Website without prior written approval:</p>
-        <ul>
-        <li>Government agencies;</li>
-        <li>Search engines;</li>
-        <li>News organizations;</li>
-        <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
-        <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
-        </ul>
-        <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.</p>
-        <p>We may consider and approve other link requests from the following types of organizations:</p>
-        <ul>
-        <li>commonly-known consumer and/or business information sources;</li>
-        <li>dot.com community sites;</li>
-        <li>associations or other groups representing charities;</li>
-        <li>online directory distributors;</li>
-        <li>internet portals;</li>
-        <li>accounting, law and consulting firms; and</li>
-        <li>educational institutions and trade associations.</li>
-        </ul>
-        <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Investwineclub; and (d) the link is in the context of general resource information.</p>
-        <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.</p>
-        <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Investwineclub. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
-        <p>Approved organizations may hyperlink to our Website as follows:</p>
-        <ul>
-        <li>By use of our corporate name; or</li>
-        <li>By use of the uniform resource locator being linked to; or</li>
-        <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
-        </ul>
-        <p>No use of Investwineclub's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
-        <h3><strong>iFrames</strong></h3>
-        <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
-        <h3><strong>Content Liability</strong></h3>
-        <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
-        <h3><strong>Your Privacy</strong></h3>
-        <p>Please read Privacy Policy</p>
-        <h3><strong>Reservation of Rights</strong></h3>
-        <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
-        <h3><strong>Removal of links from our website</strong></h3>
-        <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
-        <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
-        <h3><strong>Disclaimer</strong></h3>
-        <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
-        <ul>
-        <li>limit or exclude our or your liability for death or personal injury;</li>
-        <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-        <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
-        <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
-        </ul>
-        <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
-        <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
+        <p>Dès que <strong><?= $host_link ?></strong> a connaissance du décès d’un Utilisateur et à défaut d’instructions de sa part, <strong><?= $host_link ?></strong> s’engage à détruire ses données, sauf si leur conservation s’avère nécessaire à des fins probatoires ou pour répondre à une obligation légale.</p>
+        <p>Si l’Utilisateur souhaite savoir comment <strong><?= $host_link ?></strong> utilise ses Données Personnelles, demander à les rectifier ou s’oppose à leur traitement, l’Utilisateur peut contacter <strong><?= $host_link ?></strong> par écrit à l’adresse suivante :</p>
+        <p>MULTIMEDIA SERVICES – 146 RUE LA FAYETTE 75010 PARIS</p>
+        <p>Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que <strong><?= $host_link ?></strong> corrige, mette à jour ou supprime, en s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport).</p>
+        <p> Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <strong><?= $host_link ?></strong> par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de <strong><?= $host_link ?></strong> peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).</p>
+
+        <h3 class="h4">7.4 Non-communication des données personnelles</h3>
+
+        <p> <strong><?= $host_link ?></strong> s’interdit de traiter, héberger ou transférer les Informations collectées sur ses Clients vers un pays situé en dehors de l’Union européenne ou reconnu comme «&nbsp;non adéquat&nbsp;» par la Commission européenne sans en informer préalablement le client. Pour autant, <strong><?= $host_link ?></strong> reste libre du choix de ses sous-traitants techniques et commerciaux à la condition qu’il présentent les garanties suffisantes au regard des exigences du Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679).</p>
+        <p> <strong><?= $host_link ?></strong> s’engage à prendre toutes les précautions nécessaires afin de préserver la sécurité des Informations et notamment qu’elles ne soient pas communiquées à des personnes non autorisées. Cependant, si un incident impactant l’intégrité ou la confidentialité des Informations du Client est portée à la connaissance de <strong><?= $host_link ?></strong>, celle-ci devra dans les meilleurs délais informer le Client et lui communiquer les mesures de corrections prises. Par ailleurs <strong><?= $host_link ?></strong> ne collecte aucune «&nbsp;données sensibles&nbsp;».</p>
+        <p> Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de <strong><?= $host_link ?></strong> et des sous-traitants (prestataires de services), exclusivement afin de réaliser les finalités de la présente politique.</p>
+        <p> Dans la limite de leurs attributions respectives et pour les finalités rappelées ci-dessus, les principales personnes susceptibles d’avoir accès aux données des Utilisateurs de <strong><?= $host_link ?></strong> sont principalement les agents de notre service client.</p>
+
+
+        <h2>8. Notification d’incident</h2>
+
+        <p> Quels que soient les efforts fournis, aucune méthode de transmission sur Internet et aucune méthode de stockage électronique n'est complètement sûre. Nous ne pouvons en conséquence pas garantir une sécurité absolue.  Si nous prenions connaissance d'une brèche de la sécurité, nous avertirions les utilisateurs concernés afin qu'ils puissent prendre les mesures appropriées. Nos procédures de notification d’incident tiennent compte de nos obligations légales, qu'elles se situent au niveau national ou européen. Nous nous engageons à informer pleinement nos clients de toutes les questions relevant de la sécurité de leur compte et à leur fournir toutes les informations nécessaires pour les aider à respecter leurs propres obligations réglementaires en matière de reporting.</p>
+        <p> Aucune information personnelle de l'utilisateur du site&nbsp;<strong><?= $host_link ?></strong>&nbsp;n'est publiée à l'insu de l'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de <strong><?= $host_link ?></strong> et de ses droits permettrait la transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l'utilisateur du site&nbsp;<strong><?= $host_link ?></strong>.</p>
+
+        <h3 class="h4">Sécurité</h3>
+
+        <p> Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé, <strong><?= $host_link ?></strong> utilise des réseaux protégés par des dispositifs standards tels que par pare-feu, la pseudonymisation, l’encryption et mot de passe.</p>
+        <p> Lors du traitement des Données Personnelles, <strong><?= $host_link ?></strong>prend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou destruction.</p>
+
+        <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
+
+        <p> Le site&nbsp;<strong><?= $host_link ?></strong>&nbsp;contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de <strong><?= $host_link ?></strong>. Cependant, <strong><?= $host_link ?></strong> n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.</p>
+        <p> Sauf si vous décidez de désactiver les cookies, vous acceptez que le site puisse les utiliser. Vous pouvez à tout moment désactiver ces cookies et ce gratuitement à partir des possibilités de désactivation qui vous sont offertes et rappelées ci-après, sachant que cela peut réduire ou empêcher l’accessibilité à tout ou partie des Services proposés par le site.</p>
+
+
+        <h3>9.1. « COOKIES »</h3>
+
+        <p> Un « cookie » est un petit fichier d’information envoyé sur le navigateur de l’Utilisateur et enregistré au sein du terminal de l’Utilisateur (ex : ordinateur, smartphone), (ci-après « Cookies »). Ce fichier comprend des informations telles que le nom de domaine de l’Utilisateur, le fournisseur d’accès Internet de l’Utilisateur, le système d’exploitation de l’Utilisateur, ainsi que la date et l’heure d’accès. Les Cookies ne risquent en aucun cas d’endommager le terminal de l’Utilisateur.</p>
+        <p> <strong><?= $host_link ?></strong> est susceptible de traiter les informations de l’Utilisateur concernant sa visite du Site, telles que les pages consultées, les recherches effectuées. Ces informations permettent à <strong><?= $host_link ?></strong> d’améliorer le contenu du Site, de la navigation de l’Utilisateur.</p>
+        <p> Les Cookies facilitant la navigation et/ou la fourniture des services proposés par le Site, l’Utilisateur peut configurer son navigateur pour qu’il lui permette de décider s’il souhaite ou non les accepter de manière à ce que des Cookies soient enregistrés dans le terminal ou, au contraire, qu’ils soient rejetés, soit systématiquement, soit selon leur émetteur. L’Utilisateur peut également configurer son logiciel de navigation de manière à ce que l’acceptation ou le refus des Cookies lui soient proposés ponctuellement, avant qu’un Cookie soit susceptible d’être enregistré dans son terminal. <strong><?= $host_link ?></strong> informe l’Utilisateur que, dans ce cas, il se peut que les fonctionnalités de son logiciel de navigation ne soient pas toutes disponibles.</p>
+        <p> Si l’Utilisateur refuse l’enregistrement de Cookies dans son terminal ou son navigateur, ou si l’Utilisateur supprime ceux qui y sont enregistrés, l’Utilisateur est informé que sa navigation et son expérience sur le Site peuvent être limitées. Cela pourrait également être le cas lorsque <strong><?= $host_link ?></strong> ou l’un de ses prestataires ne peut pas reconnaître, à des fins de compatibilité technique, le type de navigateur utilisé par le terminal, les paramètres de langue et d’affichage ou le pays depuis lequel le terminal semble connecté à Internet.</p>
+        <p> Le cas échéant, <strong><?= $host_link ?></strong> décline toute responsabilité pour les conséquences liées au fonctionnement dégradé du Site et des services éventuellement proposés par <strong><?= $host_link ?></strong>, résultant (i) du refus de Cookies par l’Utilisateur (ii) de l’impossibilité pour <strong><?= $host_link ?></strong> d’enregistrer ou de consulter les Cookies nécessaires à leur fonctionnement du fait du choix de l’Utilisateur. Pour la gestion des Cookies et des choix de l’Utilisateur, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d’aide du navigateur, qui permettra de savoir de quelle manière l’Utilisateur peut modifier ses souhaits en matière de Cookies.</p>
+        <p> À tout moment, l’Utilisateur peut faire le choix d’exprimer et de modifier ses souhaits en matière de Cookies. <strong><?= $host_link ?></strong> pourra en outre faire appel aux services de prestataires externes pour l’aider à recueillir et traiter les informations décrites dans cette section.</p>
+        <p> Enfin, en cliquant sur les icônes dédiées aux réseaux sociaux Twitter, Facebook, Linkedin et Google Plus figurant sur le Site de <strong><?= $host_link ?></strong> ou dans son application mobile et si l’Utilisateur a accepté le dépôt de cookies en poursuivant sa navigation sur le Site Internet ou l’application mobile de <strong><?= $host_link ?></strong>, Twitter, Facebook, Linkedin et Google Plus peuvent également déposer des cookies sur vos terminaux (ordinateur, tablette, téléphone portable).</p>
+        <p> Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que vous y consentiez, en continuant votre navigation sur le Site Internet ou l’application mobile de <strong><?= $host_link ?></strong>. À tout moment, l’Utilisateur peut néanmoins revenir sur son consentement à ce que <strong><?= $host_link ?></strong> dépose ce type de cookies.</p>
+
+        <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
+
+        <p> <strong><?= $host_link ?></strong> peut employer occasionnellement des balises Internet (également appelées « tags », ou balises d’action, GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer par l’intermédiaire d’un partenaire spécialiste d’analyses Web susceptible de se trouver (et donc de stocker les informations correspondantes, y compris l’adresse IP de l’Utilisateur) dans un pays étranger.</p>
+        <p> Ces balises sont placées à la fois dans les publicités en ligne permettant aux internautes d’accéder au Site, et sur les différentes pages de celui-ci.  &nbsp;</p>
+        <p> Cette technologie permet à <strong><?= $host_link ?></strong> d’évaluer les réponses des visiteurs face au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur.</p>
+        <p> Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs du Site et d’autres sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de <strong><?= $host_link ?></strong>, et fournir d’autres services relatifs à l’utilisation de celui-ci et d’Internet.</p>
+
+
+        <h2>10. Droit applicable et attribution de juridiction.</h2>
+        <p> Tout litige en relation avec l’utilisation du site&nbsp;<strong><?= $host_link ?></strong>&nbsp;est soumis au droit français.  En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris</p>

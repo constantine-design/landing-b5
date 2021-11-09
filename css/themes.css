@@ -2,7 +2,7 @@
 /*                       VARIOUS STYLES                       */
 /* ========================================================== */
 
-:focus { outline: none; }
+:focus, button:focus { outline: none; }
 
 /* centering bootstrap modal */
 .modal-center {

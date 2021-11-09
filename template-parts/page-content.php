@@ -18,8 +18,8 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
       </div>
       <div class="col-lg-6">
         <div class="bg-white rounded-lg px-4 px-lg-5 py-5 shadow mt-4 mx-2 mx-lg-5 mb-4" id="lead-collector">
-          <h3 class="text-center mt-3 mb-1 h4 text-uppercase font-weight-bold">Ouvrir un Super Livret</h3>
-          <p class="text-center" style="font-size: 1rem; font-weight: 600;">Super Livret ! Nouveau Placement à 3,99% !</p>
+          <h3 class="text-center mt-3 mb-1 h4 text-uppercase font-weight-bold">Lorem Ispum</h3>
+          <p class="text-center" style="font-size: 1rem; font-weight: 600;">Dollor set amet</p>
           <?php include __DIR__ . '/page-content-form.php'; ?>
         </div>
       </div>
@@ -40,12 +40,12 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
   <div class="container">
     <div class="row justify-content-center align-items-center">
 
-      <div class="col-12 col-md-6 mb-4 px-5 text-center">
+      <div class="col-12 col-md-6 mb-4 px-lg-5 text-center">
         <img class="img-fluid d-inline-block rounded" src="https://via.placeholder.com/800x600" alt="Super Livret">
       </div>
 
-      <div class="col-12 col-md-6 mb-4 px-5">
-        <h2 class="mb-4 h3 text-uppercase">Les avantages du Super Livret</h3>
+      <div class="col-12 col-md-6 mb-4 px-lg-5">
+        <h2 class="mb-4 h3 text-uppercase">Les avantages du Lorem Ispum</h3>
         <div class="count-desc">
           Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
           Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.

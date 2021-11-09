@@ -4,13 +4,19 @@
 /* ---------------------------------------------------------- */
 
 // spreadsheet id, can get it from spreadsheet url
-define('SITE_NAME', 'ADVERTIZING');
-
-// spreadsheet id, can get it from spreadsheet url
-define('SPREAD_SHEET_ID', '1zbFiwwiYZ9OFlIqP3dBgN9lty1N4oDqJjZCd_ybzsZw');
+define('SPREAD_SHEET_ID', '');
 
 // API key file name, file should be placed in this directory
 define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
+
+
+/* ---------------------------------------------------------- */
+/*                   site identity settings                   */
+/* ---------------------------------------------------------- */
+
+// site identity
+define('SITE_NAME', 'Demo Landing');
+define('SITE_EMAIL', 'contact@demo.com');
 
 
 

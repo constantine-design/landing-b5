@@ -25,7 +25,7 @@
 
 <!-- Main CSS -->
 <link href="css/themes.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 
 <!-- Vendor Forms CSS Files -->
 <link href="vendor/jackocnr/intl-tel-input/build/css/intlTelInput.min.css" rel="stylesheet">
