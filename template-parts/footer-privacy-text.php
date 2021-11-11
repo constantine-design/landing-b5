@@ -1,8 +1,3 @@
-<?php
-$host = $_SERVER['HTTP_HOST'];
-$host_link = '<a href="https://'.$host.'">https://'.$host."/</a>";
-?>
-
 <?php if ( !(isset($is_landing) && $is_landing==true) ) exit; ?>
 
     <!-- Footer modal content -->
@@ -18,7 +13,7 @@ $host_link = '<a href="https://'.$host.'">https://'.$host."/</a>";
 		   <li>A qui ces données sont transmises&nbsp;;</li>
 		   <li>Eventuellement, la politique du site en matière de fichiers "cookies".</li>
 		</ul>
-		<p>Cette politique de confidentialité complète les mentions légales et les Conditions Générales d'Utilisation que les utilisateurs peuvent consulter à l'adresse ci-après&nbsp;: <b><?= $host_link ?></b></p>
+		<p>Cette politique de confidentialité complète les mentions légales et les Conditions Générales d'Utilisation que les utilisateurs peuvent consulter à l'adresse ci-après&nbsp;: <a href="https://<?= $_SERVER['HTTP_HOST'] ?>">https://<?= $_SERVER['HTTP_HOST'] ?>/</a></p>
 
 		<h3>ARTICLE 2&nbsp;: PRINCIPES GÉNÉRAUX EN MATIÈRE DE COLLECTE ET DE TRAITEMENT DE DONNÉES</h3>
 		<p>Conformément aux dispositions de l'article 5 du Règlement européen 2016/679, la collecte et le traitement des données des utilisateurs du site respectent les principes suivants&nbsp;:</p>
