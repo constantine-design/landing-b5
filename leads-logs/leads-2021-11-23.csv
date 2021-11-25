@@ -1,7 +1,0 @@
-date,nom,amount,email,telephone,message,ip,device
-"2021/11/23 09:01:00","Administrator Name","De 10 000 € à 25 000 €",test@gmail.com,0123456789,iuhhihihhiu,"undefined undefined (undefined)  Location: undefined","Chrome 96/Windows 10  Device-type: Desktop"
-"2021/11/23 09:02:28","Administrator Name","De 10 000 € à 25 000 €",test@gmail.com,0123456789,iuhhihihhiu,"undefined undefined (undefined)  Location: undefined","Chrome 96/Windows 10  Device-type: Desktop"
-"2021/11/23 09:04:57","Administrator Name","De 10 000 € à 25 000 €",test@gmail.com,0123456789,"kook,koook,k,o","undefined undefined (undefined)  Location: undefined","Chrome 96/Windows 10  Device-type: Desktop"
-"2021/11/23 09:05:49","Administrator Name","De 10 000 € à 25 000 €",test@gmail.com,0123456789,"ftftfjnuiiujjumku iyghuygh ug","undefined undefined (undefined)  Location: undefined","Chrome 96/Windows 10  Device-type: Desktop"
-"2021/11/23 09:07:02","Administrator Name","De 10 000 € à 25 000 €",test@gmail.com,0123456789,"Text check","undefined undefined (undefined)  Location: undefined","Chrome 96/Windows 10  Device-type: Desktop"
-"2021/11/23 09:07:51","Administrator Name","De 25 000 € à 50 000 €",test@gmail.com,0123456789,"yh rt eertr  er ert ","undefined undefined (undefined)  Location: undefined","Chrome 96/Windows 10  Device-type: Desktop"

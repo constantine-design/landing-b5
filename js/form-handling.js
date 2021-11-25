@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
   /*  activate rules */
   $params['rules'][$("#i-name").attr("name")] = {"required": true, minlength: 3, maxlength: 30,};
-  // $params['rules'][$("#i-surname").attr("name")] = {"required": true, minlength: 3, maxlength: 30,};
+  $params['rules'][$("#i-surname").attr("name")] = {"required": true, minlength: 3, maxlength: 30,};
   $params['rules'][$("#i-mail").attr("name")] = {"required": true, email: true,};
   //$params['rules'][$("#i-phone").attr("name")] = {"required": true, phoneint: true,};
   $("#form").validate($params);
