@@ -108,8 +108,8 @@ jQuery(document).ready(function($) {
     var userData = user.browser.name+"/"+user.os.name;
     var userDevice = "  Device-type: "+user.device.type+(user.device.manufacturer ? " "+user.device.manufacturer : "");
     $('input#i-device').val( userData + userDevice );
-    console.log( user );
-    console.log( userData + userDevice );
+    //console.log( user );
+    //console.log( userData + userDevice );
   }
 
 });

@@ -4,7 +4,7 @@
 /* ---------------------------------------------------------- */
 
 // spreadsheet id, can get it from spreadsheet url
-define('SPREAD_SHEET_ID', '');
+define('SPREAD_SHEET_ID', '1Y4vL8vR9hH9NzbFhYHOuT6dSguEzAciUUbLQOM52To0');
 
 // API key file name, file should be placed in this directory
 define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
@@ -18,8 +18,17 @@ define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
 define('SITE_NAME', 'Demo Landing');
 define('SITE_EMAIL', 'contact@demo.com');
 
+// company identity in mention privasy and terms windows
+define('COMPANY_NAME', 'MULTIMEDIA SERVICES');
+define('COMPANY_ADRESS', '146 RUE LA FAYETTE 75010 PARIS');
+define('COMPANY_INFO', '
+Numéro de Siret :&nbsp;81425559200010<br>
+FORME JURIDIQUE SARL au Capital de 900 E NUMERO DE TVA INTRACOMMUNAUTAIRE FR74814255592<br>
+Carte professionnelle portant la mention "Transactions sur immeubles et fonds de commerce", n° T15883 délivrée par la préfecture de Police de Paris. : n° T15883
+');
 
-
+// automatically determine site adress or override/edit this if you need manualiy add site self link
+define('SITE_SELF_LINK', ( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 
 // other settings
 // -----------------------------------------
@@ -35,6 +44,6 @@ $_HC_A = 1;
 $_SHEET_DATE_COLUMN_NAME = "date";
 
 // lead log settings, relative path is relative this folder ( number is steps up)
-$_LOG_DIRECTORY_PATH = dirname( __DIR__, 1 );
+$_LOG_DIRECTORY_PATH = dirname( __DIR__, 1 ); // now it is the same dir lp make sure that there is no access in htaacess file
 $_LOG_DIRECTORY_NAME = "leads-logs";
 $_LOG_FILE_PREFIX ="leads";

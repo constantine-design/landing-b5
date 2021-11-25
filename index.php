@@ -1,4 +1,4 @@
-<?php $is_landing = true; ?>
+<?php $is_landing = true; $has_form_on_page = true; ?>
 <!DOCTYPE html>
 
 <html lang="fr">

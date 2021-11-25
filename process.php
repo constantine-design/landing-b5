@@ -125,7 +125,9 @@ if (empty($values)) {
 
   // add row with column names we get from GET var indees
   $range = $_SHEET_NAME;
-  $values = [ $insert_names ];
+  function names_format($val="") { return ucfirst( str_replace( ["-","_"] , " ", $val) ); }
+  $formatted_values = array_map('names_format', $insert_names);
+  $values = [ $formatted_values ];
   $body = new Google_Service_Sheets_ValueRange([ 'values' => $values ]);
   $params = [ 'valueInputOption' => "RAW" ];
   $insert = [ "insertDataOption" => "INSERT_ROWS" ];

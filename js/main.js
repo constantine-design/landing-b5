@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
   /* ======================================================= */
 
   if (typeof AOS !== 'undefined') {
-    //AOS.init();
+    AOS.init();
   }
 
 

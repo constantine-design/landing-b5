@@ -8,15 +8,22 @@
 <script src="vendor/michalsnik/aos/dist/aos.js"></script>
 <script src="vendor/soerenkroell/composer-slick/slick/slick.min.js"></script>
 
-<!-- Libraries for forms -->
-<script src="vendor/igorescobar/jquery-mask-plugin/src/jquery.mask.js"></script>
-<script src="vendor/chathurabuddi/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="vendor/chathurabuddi/jquery-validation/dist/localization/messages_fr.min.js"></script>
-<script src="vendor/jackocnr/intl-tel-input/build/js/intlTelInput.js"></script>
-<script src="vendor/jackocnr/intl-tel-input/build/js/data.min.js"></script>
-<script src="vendor/jackocnr/intl-tel-input/build/js/utils.js"></script>
-<script src="js/detect.min.js"></script>
+<?php // Add form scripts only page with form ?>
+<?php if ( isset($has_form_on_page) && $has_form_on_page==true ): ?>
 
-<!-- MAIN JS FILES  -->
+	<!-- Libraries for forms -->
+	<script src="vendor/igorescobar/jquery-mask-plugin/src/jquery.mask.js"></script>
+	<script src="vendor/chathurabuddi/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="vendor/chathurabuddi/jquery-validation/dist/localization/messages_fr.min.js"></script>
+	<script src="vendor/jackocnr/intl-tel-input/build/js/intlTelInput.js"></script>
+	<script src="vendor/jackocnr/intl-tel-input/build/js/data.min.js"></script>
+	<script src="vendor/jackocnr/intl-tel-input/build/js/utils.js"></script>
+	<script src="js/detect.min.js"></script>
+
+	<!-- MAIN JS FILES  -->
+	<script src="js/form-handling.js"></script>
+
+<?php endif; ?>
+
+
 <script src="js/main.js"></script>
-<script src="js/form-handling.js"></script>
