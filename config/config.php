@@ -28,7 +28,7 @@ Carte professionnelle portant la mention "Transactions sur immeubles et fonds de
 ');
 
 // automatically determine site adress or override/edit this if you need manualiy add site self link
-define('SITE_SELF_LINK', ( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+define('SITE_SELF_LINK', ( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) );
 
 // other settings
 // -----------------------------------------
