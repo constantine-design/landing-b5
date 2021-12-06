@@ -4,7 +4,7 @@
 /* ---------------------------------------------------------- */
 
 // spreadsheet id, can get it from spreadsheet url
-define('SPREAD_SHEET_ID', '1Y4vL8vR9hH9NzbFhYHOuT6dSguEzAciUUbLQOM52To0');
+define('SPREAD_SHEET_ID', '');
 
 // API key file name, file should be placed in this directory
 define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
