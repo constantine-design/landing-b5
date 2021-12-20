@@ -1,7 +1,7 @@
 <?php if ( !(isset($is_landing) && $is_landing==true) ) exit; ?>
 
     <!-- Footer modal content -->
-    <h2 class="mt-3 mb-4">SITE&nbsp;: <?= SITE_NAME ?></h2>
+    <h2 class="mt-3 mb-4 text-uppercase">SITE&nbsp;: <?= SITE_NAME ?></h2>
 
 		<h3>ARTICLE 1&nbsp;: PRÉAMBULE</h3>
 		<p>Cette politique de confidentialité s'applique au site&nbsp;: <?= SITE_NAME ?>.</p>
@@ -13,7 +13,7 @@
 		   <li>A qui ces données sont transmises&nbsp;;</li>
 		   <li>Eventuellement, la politique du site en matière de fichiers "cookies".</li>
 		</ul>
-		<p>Cette politique de confidentialité complète les mentions légales et les Conditions Générales d'Utilisation que les utilisateurs peuvent consulter à l'adresse ci-après&nbsp;: <?= SITE_SELF_LINK ?></p>
+		<p>Cette politique de confidentialité complète les mentions légales et les Conditions Générales d'Utilisation que les utilisateurs peuvent consulter à l'adresse ci-après&nbsp;: <a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a></p>
 
 		<h3>ARTICLE 2&nbsp;: PRINCIPES GÉNÉRAUX EN MATIÈRE DE COLLECTE ET DE TRAITEMENT DE DONNÉES</h3>
 		<p>Conformément aux dispositions de l'article 5 du Règlement européen 2016/679, la collecte et le traitement des données des utilisateurs du site respectent les principes suivants&nbsp;:</p>

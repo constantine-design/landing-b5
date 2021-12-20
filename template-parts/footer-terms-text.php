@@ -1,138 +1,120 @@
 <?php if ( !(isset($is_landing) && $is_landing==true) ) exit; ?>
 
         <!-- Footer modal content -->
-        <h2 class="mt-3 mb-4">SITE&nbsp;: <?= SITE_NAME ?></h2>
+        <h2 class="mt-3 mb-4 text-uppercase">SITE&nbsp;: <?= SITE_NAME ?></h2>
 
         <p class="lead font-weight-bold"><?= COMPANY_NAME ?></p>
         <p><?= COMPANY_ADRESS ?></p>
         <p><b><a href="mailto:<?= SITE_EMAIL ?>"><?= SITE_EMAIL ?></a></b></p>
         <p><?= COMPANY_INFO ?></p>
 
-        <h2>Définitions</h2>
+        <hr>
 
-        <p><b>Client&nbsp;:</b>&nbsp;tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présente conditions générales.</p>
-        <p><b>Prestations et Services&nbsp;:</b> <?= SITE_SELF_LINK ?> met à disposition des Clients&nbsp;:</p>
-        <p><b>Contenu&nbsp;:</b>&nbsp;Ensemble des éléments constituants l’information présente sur le Site du Client, notamment textes – images – vidéos.</p>
-        <p><b>Informations clients&nbsp;:</b> Ci après dénommé «&nbsp;Information (s)&nbsp;» qui correspondent à l’ensemble des données personnelles susceptibles d’être détenues par <?= SITE_SELF_LINK ?> pour la gestion de votre compte, de la gestion de la relation client et à des fin d’analyses et de statistiques.</p>
-        <p><b>Utilisateur :</b> Internaute se connectant, utilisant le site susnommé.</p>
-        <p><b>Informations personnelles :</b> « Les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).</p>
-        <p>Les termes «&nbsp;données à caractère personnel&nbsp;», «&nbsp;personne concernée&nbsp;», «&nbsp;sous traitant&nbsp;» et «&nbsp;données sensibles&nbsp;» ont le sens défini par le Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679)</p>
+        <h2 class="mt-4">CONDITIONS D’UTILISATION</h2>
+        <p>L’utilisation de ce site est subordonnée à l’acceptation de l’intégralité des présentes conditions exposées ci-après.</p>
 
-        <h2>1. Présentation du site internet.</h2>
+        <h2 class="mt-4">DROITS DE PROPRIÉTÉ INTELLECTUELLE</h2>
+        <p>L’utilisateur du site reconnaît que le contenu du site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;est protégé par le droit national et international de la propriété intellectuelle et qu’il ne peut être copié, reproduit, republié, téléchargé, posté, transmis, distribué, vendu, exploité ou modifié d’aucune manière que ce soit sans l’autorisation expresse de <?= SITE_NAME ?>.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> concède le droit d’utiliser le site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;uniquement à des fins personnelles et à l’exclusion de tout but commercial ou professionnel.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> reste propriétaire exclusif de tous les droits de propriété intellectuelle portant sur le site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>. Cela comprend notamment, mais sans s’y limiter, les programmes, les données et également les enregistrements audio, les textes, les images, les graphismes et les vidéos qui sont protégés par la réglementation sur le droit de la propriété intellectuelle et les droits d’auteur (y compris le droit des brevets et des marques) et les dispositions légales internationales en vigueur relatives à la propriété intellectuelle.</p>
+        <p>Les marques et logos figurant sur le site, sont la propriété de <strong class="text-uppercase"><?= SITE_NAME ?></strong> ou font l’objet d’une autorisation d’utilisation. Aucun droit ou licence ne saurait être attribué sur l’un de ces éléments sans l’autorisation écrite de <strong class="text-uppercase"><?= SITE_NAME ?></strong> ou du tiers détenteur des droits sur les marques ou logos figurant sur le site.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> se réserve le droit de poursuivre tout acte de contrefaçon de ses droits de propriété intellectuelle, selon l’article L 335-2 et suivants du Code de la Propriété Intellectuelle, y compris dans le cadre d’une action pénale.</p>
 
-        <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet&nbsp;<?= SITE_SELF_LINK ?>&nbsp;l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi:</p>
-        <p><strong>Propriétaire</strong> : <?= COMPANY_NAME ?> LEGAL FORM SARL with a Capital of 900 E INTRACOMMUNITY VAT NUMBER FR74814255592, <?= COMPANY_ADRESS ?></p>
-        <p><strong>Responsable publication</strong> : <?= SITE_NAME ?> – <a href="mailto:<?= SITE_EMAIL ?>"><?= SITE_EMAIL ?></a> Le responsable publication est une personne physique ou une personne morale.</p>
-        <p><strong>Hébergeur</strong> : ovh – 2 rue Kellermann 59100 Roubaix 1007</p>
+        <h2 class="mt-4">ACCÈS AU SITE</h2>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> mettra en œuvre les moyens requis pour sauvegarder les données recueillies par elle au cours de l’exécution de ses obligations. Il est toutefois expressément reconnu par les parties que cette obligation est une obligation de moyens telle que définie par la jurisprudence.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> s’engage par ailleurs à mettre en œuvre tous les moyens nécessaires pour assurer le fonctionnement, dans des conditions optimales, du site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;et des services associés. Dans la mesure du possible, <strong class="text-uppercase"><?= SITE_NAME ?></strong> s’efforce de mettre à jour les informations précises éditées sur ce site.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> ne saurait toutefois être tenue pour responsable de toute erreur ou omission, des conséquences de faits qui lui sont extérieurs, tels que des pannes de courant, arrêts temporaires ou non de la messagerie.</p>
+        <p>Pour des raisons de maintenance, <strong class="text-uppercase"><?= SITE_NAME ?></strong> peut interrompre momentanément l’accès au site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;et aux services associés. <?= SITE_NAME ?> s’efforcera d’éviter, dans la mesure du possible, de causer une trop grande gêne aux utilisateurs.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> peut par ailleurs se voir dans l’obligation de refuser momentanément l’accès de certains utilisateurs au site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>en raison d’un trop grand nombre de connexions simultanées.</p>
 
-        <h2>2. Conditions générales d’utilisation du site et des services proposés.</h2>
-
-        <p>Le Site constitue une œuvre de l’esprit protégée par les dispositions du Code de la Propriété Intellectuelle et des Réglementations Internationales applicables.  Le Client ne peut en aucune manière réutiliser, céder ou exploiter pour son propre compte tout ou partie des éléments ou travaux du Site.</p>
-        <p>L’utilisation du site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;sont donc invités à les consulter de manière régulière.</p>
-        <p>Ce site internet est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée par <?= SITE_SELF_LINK ?>, qui s’efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l’intervention. Le site web&nbsp;<?= SITE_SELF_LINK ?>&nbsp;est mis à jour régulièrement par <?= SITE_SELF_LINK ?> responsable. De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance.</p>
-
-        <h2>3. Description des services fournis.</h2>
-
-        <p>Le site internet&nbsp;<?= SITE_SELF_LINK ?>&nbsp;a pour objet de fournir une information concernant l’ensemble des activités de la société. <?= SITE_SELF_LINK ?> s’efforce de fournir sur le site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des oublis, des inexactitudes et des carences dans la mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.</p>
-        <p>Toutes les informations indiquées sur le site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;sont données à titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les renseignements figurant sur le site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne.</p>
-
-        <h2>4. Limitations contractuelles sur les données techniques.</h2>
-
-        <p>Le site utilise la technologie JavaScript. Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour Le site <?= SITE_SELF_LINK ?> est hébergé chez un prestataire sur le territoire de l’Union Européenne conformément aux dispositions du Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679)</p>
-        <p>L’objectif est d’apporter une prestation qui assure le meilleur taux d’accessibilité. L’hébergeur assure la continuité de son service 24 Heures sur 24, tous les jours de l’année. Il se réserve néanmoins la possibilité d’interrompre le service d’hébergement pour les durées les plus courtes possibles notamment à des fins de maintenance, d’amélioration de ses infrastructures, de défaillance de ses infrastructures ou si les Prestations et Services génèrent un trafic réputé anormal.</p>
-        <p><?= SITE_SELF_LINK ?> et l’hébergeur ne pourront être tenus responsables en cas de dysfonctionnement du réseau Internet, des lignes téléphoniques ou du matériel informatique et de téléphonie lié notamment à l’encombrement du réseau empêchant l’accès au serveur.</p>
-
-        <h2>5. Propriété intellectuelle et contrefaçons.</h2>
-
-        <p><?= SITE_SELF_LINK ?> est propriétaire des droits de propriété intellectuelle et détient les droits d’usage sur tous les éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, icônes et sons. Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : <?= SITE_SELF_LINK ?>.</p>
-
-        <p>Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
-
-        <h2>6. Limitations de responsabilité.</h2>
-
-        <p><?= SITE_SELF_LINK ?> agit en tant qu’éditeur du site. <?= SITE_SELF_LINK ?> &nbsp;est responsable de la qualité et de la véracité du Contenu qu’il publie.</p>
-        <p><?= SITE_SELF_LINK ?> ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site internet <?= SITE_SELF_LINK ?>, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une incompatibilité.</p>
-        <p><?= SITE_SELF_LINK ?> ne pourra également être tenu responsable des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation du site&nbsp;<?= SITE_SELF_LINK ?>. Des espaces interactifs (possibilité de poser des questions dans l’espace contact) sont à la disposition des utilisateurs. <?= SITE_SELF_LINK ?> se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, <?= SITE_SELF_LINK ?> se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie …).</p>
-
-        <h2>7. Gestion des données personnelles.</h2>
-
-        <p>Le Client est informé des réglementations concernant la communication marketing, la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679).</p>
-
-        <h3 class="h4">7.1 Responsables de la collecte des données personnelles</h3>
-
-        <p>Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de sa navigation sur le Site, le responsable du traitement des Données Personnelles est : <?= SITE_NAME ?>. <?= SITE_SELF_LINK ?> est représenté par <?= SITE_NAME ?> SEO, son représentant légal.</p>
-        <p>En tant que responsable du traitement des données qu’il collecte, <?= SITE_SELF_LINK ?> s’engage à respecter le cadre des dispositions légales en vigueur. Il lui appartient notamment au Client d’établir les finalités de ses traitements de données, de fournir à ses prospects et clients, à partir de la collecte de leurs consentements, une information complète sur le traitement de leurs données personnelles et de maintenir un registre des traitements conforme à la réalité. Chaque fois que <?= SITE_SELF_LINK ?> traite des Données Personnelles, <?= SITE_SELF_LINK ?> prend toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des Données Personnelles au regard des finalités pour lesquelles <?= SITE_SELF_LINK ?> les traite.</p>
-
-        <h3 class="h4">7.2 Finalité des données collectées</h3>
-
-        <p><?= SITE_SELF_LINK ?> est susceptible de traiter tout ou partie des données :</p>
+        <h2 class="mt-4">COMPATIBILITÉ</h2>
+        <p>Le site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;est conçu pour être consulté par avec les logiciels suivants :</p>
         <ul>
-           <li>pour permettre la navigation sur le Site et la gestion et la traçabilité des prestations et services commandés par l’utilisateur : données de connexion et d’utilisation du Site, facturation, historique des commandes, etc.</li>
-           <li>pour prévenir et lutter contre la fraude informatique (spamming, hacking…) : matériel informatique utilisé pour la navigation, l’adresse IP, le mot de passe (hashé)</li>
-           <li>pour améliorer la navigation sur le Site : données de connexion et d’utilisation</li>
-           <li>pour mener des enquêtes de satisfaction facultatives sur <?= SITE_SELF_LINK ?> : adresse email</li>
+          <li>Internet Explorer : versions 9, 10 et supérieures</li>
+          <li>Firefox : version 25 et supérieures</li>
+          <li>Chrome : version 30 et supérieures</li>
+          <li>Safari : version 5.1 et supérieures</li>
+          <li>Compatibilité mobile</li>
         </ul>
-        <p><?= SITE_SELF_LINK ?> ne commercialise pas vos données personnelles qui sont donc uniquement utilisées par nécessité ou à des fins statistiques et d’analyses.</p>
 
-        <h3 class="h4">7.3 Droit d’accès, de rectification et d’opposition</h3>
+        <h2 class="mt-4">LIENS HYPERTEXTES</h2>
+        <p>Le site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;peut contenir des liens hypertextes redirigeant vers d’autres sites Internet.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> n’édite pas et ne contrôle pas ces sites. Le fait de placer des liens vers ces sites n’implique d’aucune manière que ce soit une approbation ou un partenariat entre <?= SITE_NAME ?> et ces sites. Dès lors, <strong class="text-uppercase"><?= SITE_NAME ?></strong> ne saurait être tenu pour responsable des contenus, produits et services, publicités ou tout autre élément présenté sur ces sites.</p>
+        <p>Le site a été édité par <strong class="text-uppercase"><?= SITE_NAME ?></strong> dans le souci de respecter les réglementations française et européenne. Le site établit des liens hypertextes vers des sites Internet qui sont censés respecter de la même façon les réglementations en cours. Toutefois, <strong class="text-uppercase"><?= SITE_NAME ?></strong> ne saurait être tenue pour responsable du non-respect des réglementations française et européenne sur ces sites.</p>
+        <p>&nbsp;</p>
 
-        <p> Conformément à la réglementation européenne en vigueur, les Utilisateurs de <?= SITE_SELF_LINK ?> disposent des droits suivants :</p>
+        <h2 class="mt-4">POLITIQUE DE PROTECTION DES DONNÉES PERSONNELLES</h2>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> a le souci de respecter la vie privée des utilisateurs du site.</p>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> informe ses utilisateurs de la nature des informations recueillies sur le site lors de votre visite, l’utilisation qui peut en être faite et indique de même comment procéder pour modifier leurs données personnelles ou refuser que leurs coordonnées soient transmises à des tiers.</p>
+
+        <h2 class="mt-4">NATURE ET UTILISATION DES DONNÉES COLLECTÉES</h2>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> a besoin, dans le cas où l’utilisateur souhaite recevoir les actualités et informations commerciales par voie électronique ou prendre contact avec la société <?= SITE_NAME ?>, de collecter des données personnelles liées à l’utilisateur à partir du site telles que la société, la civilité, le nom, le prénom, l’adresse e-mail.</p>
+        <p>Ces données sont recueillies à des fins commerciales par <strong class="text-uppercase"><?= SITE_NAME ?></strong> et ne seront pas transmises à des tiers sans acceptation préalable.</p>
+        <p>Conformément à la Loi Informatique et Libertés du 6 janvier 1978&nbsp;:</p>
         <ul>
-           <li>droit d'accès (article 15 RGPD) et de rectification (article 16 RGPD), de mise à jour, de complétude des données des Utilisateurs droit de verrouillage ou d’effacement des données des Utilisateurs à caractère personnel (article 17 du RGPD), lorsqu’elles sont inexactes, incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou la conservation est interdite</li>
-           <li>droit de retirer à tout moment un consentement (article 13-2c RGPD)</li>
-           <li>droit à la limitation du traitement des données des Utilisateurs (article 18 RGPD)</li>
-           <li>droit d’opposition au traitement des données des Utilisateurs (article 21 RGPD)</li>
-           <li>droit à la portabilité des données que les Utilisateurs auront fournies, lorsque ces données font l’objet de traitements automatisés fondés sur leur consentement ou sur un contrat (article 20 RGPD)</li>
-           <li>droit de définir le sort des données des Utilisateurs après leur mort et de choisir à qui <?= SITE_SELF_LINK ?> devra communiquer (ou non) ses données à un tiers qu’ils aura préalablement désigné</li>
+          <li>Les données recueillies lors d’une demande d’information émanant de la part d’un utilisateur sont nécessaires à la gestion de cette demande. Ces informations sont destinées à la société <?= SITE_NAME ?> qui est responsable de ce traitement. L’adresse e-mail recueillie ne sert qu’à répondre dans les meilleurs délais et ne sera pas remise à des tiers.</li>
         </ul>
-        <p>Dès que <?= SITE_SELF_LINK ?> a connaissance du décès d’un Utilisateur et à défaut d’instructions de sa part, <?= SITE_SELF_LINK ?> s’engage à détruire ses données, sauf si leur conservation s’avère nécessaire à des fins probatoires ou pour répondre à une obligation légale.</p>
-        <p>Si l’Utilisateur souhaite savoir comment <?= SITE_SELF_LINK ?> utilise ses Données Personnelles, demander à les rectifier ou s’oppose à leur traitement, l’Utilisateur peut contacter <?= SITE_SELF_LINK ?> par écrit à l’adresse suivante :</p>
-        <p><?= COMPANY_NAME ?> – <?= COMPANY_ADRESS ?></p>
-        <p>Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que <?= SITE_SELF_LINK ?> corrige, mette à jour ou supprime, en s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport).</p>
-        <p> Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <?= SITE_SELF_LINK ?> par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de <?= SITE_SELF_LINK ?> peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).</p>
+        <ul>
+        <li>Tout utilisateur du site&nbsp;<a href="<?= SITE_SELF_LINK ?>">chevalblanc-patrimoine.fr</a>&nbsp;dispose d’un droit d’accès, de rectification, de modification et de suppression concernant les données les concernent. Pour exercer ce droit&nbsp;l’utilisateur est invité à prendre contact avec <strong class="text-uppercase"><?= SITE_NAME ?></strong> par :<br>
+        – voie postale auprès de <?= SITE_NAME ?> – 9 avenue Bugeaud – 75116 Paris<br>
+        – téléphone au 01.85.08.26.60<br>
+        – fax au &nbsp;09.72.24.96.69<br>
+        – par voie électronique depuis le&nbsp;<a title="Contactez-nous" href="<?= SITE_SELF_LINK ?>#lead-collector" target="_blank" rel="noopener noreferrer">formulaire</a>&nbsp;de contact disponible sur le site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a></li>
+        </ul>
 
-        <h3 class="h4">7.4 Non-communication des données personnelles</h3>
+        <h2 class="mt-4">UTILISATION DES COOKIES</h2>
+        <p>Les cookies sont des fichiers texte qu’un site web peut placer sur le disque dur d’un ordinateur personnel pour des raisons de traçabilité, et qui ne peuvent ensuite être lus et utilisés par le site qui les a placé.</p>
+        <p>Ils permettent simplement au site&nbsp;<a href="<?= SITE_SELF_LINK ?>"><?= SITE_SELF_LINK ?></a>&nbsp;de proposer à l’utilisateur des informations personnalisées en permettant au serveur de l’identifier, de se souvenir d’informations importantes concernant l’utilisateur et faciliter l’utilisation du Site.</p>
+        <p>Sous réserve des paramétrages du logiciel de navigation de l’utilisateur, <strong class="text-uppercase"><?= SITE_NAME ?></strong> peut être amené à installer divers Cookies dans le navigateur Internet de l’utilisateur à des fins&nbsp;:<br>
+        – d’établir des statistiques de fréquentation (nombre de visites, de pages vues, d’abandon…) afin de suivre et d’améliorer la qualité de nos services<br>
+        – d’adapter la présentation du Site aux préférences d’affichage du navigateur<br>
+        – de mémoriser des informations saisies dans des formulaires, gérer et sécuriser l’accès à des espaces réservés et personnels</p>
+        <p>L’utilisateur peut utiliser les options de son navigateur Internet s’il ne souhaite pas recevoir de cookie ou s’il souhaite que son navigateur l’avertisse lorsqu’il en reçoit…</p>
+        <p>La démarche à suivre pour refuser l’insertion de ces cookies « tiers » est la suivante, selon les modalités proposées :</p>
+        <p><strong>Pour Mozilla Firefox :</strong></p>
+        <ol>
+          <li>Menu « Outil » puis « Options »</li>
+          <li>Icône « Vie privée »</li>
+          <li>Menu « Cookie »</li>
+          <li>Choix des options souhaitées et validation</li>
+        </ol>
+        <p><a href="https://support.mozilla.org/fr/kb/activer-desactiver-cookies?redirectlocale=fr&amp;redirectslug=Activer+et+d%C3%A9sactiver+les+cookies" target="_blank" rel="noopener noreferrer">http://support.mozilla.org/fr/kb/activer-desactiver-cookies?redirectlocale=fr&amp;redirectslug=Activer+et+d%C3%A9sactiver+les+cookies</a></p>
+        <p><strong>Pour Microsoft Internet Explorer&nbsp;:</strong></p>
+        <ol>
+          <li>Menu « Outil » puis « Options Internet »</li>
+          <li>Icône « Confidentialité »</li>
+          <li>Choix du niveau souhaité à l’aide du curseur et validation</li>
+        </ol>
+        <p><a href="http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies" target="_blank" rel="noopener">http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies</a></p>
+        <p><strong>Pour Chrome&nbsp;:</strong></p>
+        <ol>
+          <li>Menu Chrome / Préférences</li>
+          <li>Menu « Afficher les paramètres avancés »</li>
+          <li>Clic sur « Paramètres de contenu… » dans la partie confidentialité</li>
+          <li>Clic sur « Cookies et données de site… » dans la nouvelle fenêtre</li>
+          <li>Clic sur « Tout supprimer » et validation</li>
+        </ol>
+        <p><a href="https://support.google.com/chrome/answer/95647?hl=fr&amp;hlrm=en" target="_blank" rel="noopener noreferrer">https://support.google.com/chrome/answer/95647?hl=fr&amp;hlrm=en</a></p>
+        <p><strong>Pour Safari&nbsp;:</strong></p>
+        <ol>
+          <li>Menu Safari / Préférences</li>
+          <li>Clic sur « Confidentialité »</li>
+          <li>Dans « Bloquer les cookies », cocher « Toujours »</li>
+        </ol>
+        <p><a href="https://www.apple.com/support/?path=Safari/3.0/fr/9277.html" target="_blank" rel="noopener noreferrer">http://www.apple.com/support/?path=Safari/3.0/fr/9277.html</a></p>
+        <p>Pour connaître les options offertes par tout autre logiciel de navigation et les modalités de suppression de fichiers cookies stockés, la <strong>CNIL</strong> détaille sur ce lien les démarches à suivre pour limiter les traces sur le web&nbsp;<a href="http://www.cnil.fr/vos-droits/vos-traces/les-cookies/conseils-aux-internautes/ie" target="_blank" rel="noopener noreferrer">http://www.cnil.fr/vos-droits/vos-traces/les-cookies/conseils-aux-internautes/ie</a>&nbsp;et, plus généralement, informe sur les mécanismes de paramétrage des cookies&nbsp;<a href="http://www.cnil.fr/vos-droits/vos-traces/les-cookies/#c5554" target="_blank" rel="noopener noreferrer">http://www.cnil.fr/vos-droits/vos-traces/les-cookies/#c5554</a>.</p>
+        <p>Les Cookies ne peuvent en aucun cas être assimilés à des spywares et ne peuvent pas non plus être porteur de virus ou cheval de Troie.</p>
+        <p>En cas de désactivation des Cookies par l’utilisateur lors de la consultation du Site, <strong class="text-uppercase"><?= SITE_NAME ?></strong> ne pourra être tenu responsable des conséquences liées au fonctionnement dégradé des services du Site, résultant de l’impossibilité d’enregistrer ou de consulter les Cookies, de reconnaitre le type de navigateur utilisé, ses paramètres de langue et d’affichage ou le pays depuis lequel l’utilisateur se connecte au site…</p>
 
-        <p> <?= SITE_SELF_LINK ?> s’interdit de traiter, héberger ou transférer les Informations collectées sur ses Clients vers un pays situé en dehors de l’Union européenne ou reconnu comme «&nbsp;non adéquat&nbsp;» par la Commission européenne sans en informer préalablement le client. Pour autant, <?= SITE_SELF_LINK ?> reste libre du choix de ses sous-traitants techniques et commerciaux à la condition qu’il présentent les garanties suffisantes au regard des exigences du Règlement Général sur la Protection des Données (RGPD&nbsp;: n° 2016-679).</p>
-        <p> <?= SITE_SELF_LINK ?> s’engage à prendre toutes les précautions nécessaires afin de préserver la sécurité des Informations et notamment qu’elles ne soient pas communiquées à des personnes non autorisées. Cependant, si un incident impactant l’intégrité ou la confidentialité des Informations du Client est portée à la connaissance de <?= SITE_SELF_LINK ?>, celle-ci devra dans les meilleurs délais informer le Client et lui communiquer les mesures de corrections prises. Par ailleurs <?= SITE_SELF_LINK ?> ne collecte aucune «&nbsp;données sensibles&nbsp;».</p>
-        <p> Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de <?= SITE_SELF_LINK ?> et des sous-traitants (prestataires de services), exclusivement afin de réaliser les finalités de la présente politique.</p>
-        <p> Dans la limite de leurs attributions respectives et pour les finalités rappelées ci-dessus, les principales personnes susceptibles d’avoir accès aux données des Utilisateurs de <?= SITE_SELF_LINK ?> sont principalement les agents de notre service client.</p>
+        <h2 class="mt-4">UTILISATION DES ADRESSES IP</h2>
+        <p>Une adresse IP est un nombre qui est automatiquement assigné à un ordinateur connecté à Internet par le fournisseur d’accès Internet.</p>
+        <p>Lors de la consultation du site, les serveurs de <strong class="text-uppercase"><?= SITE_NAME ?></strong> enregistrent cette adresse IP, dans le cadre d’analyse statistique et pour connaître l’utilisation faite du Site. Toutefois, <?= SITE_NAME ?>&nbsp;ne rattache aucunement les adresses IP aux informations à caractère personnel, ce qui signifie que les consultations du Site sont enregistrées mais qu’elles demeurent anonymes.</p>
+        <p>Néanmoins, si <strong class="text-uppercase"><?= SITE_NAME ?></strong> l’estime nécessaire pour faire respecter les conditions d’utilisation, protéger ses services, ses clients ou sur demande des autorités judiciaires, l’utilisation de l’adresse IP en coopération avec le fournisseur d’accès Internet peut permettre l’identification de l’Utilisateur.</p>
 
+        <h2 class="mt-4">DONNÉES LÉGALES</h2>
+        <p><strong class="text-uppercase"><?= SITE_NAME ?></strong> se réserve le droit de modifier ou d’actualiser la présente charte de protection des données personnelles à tout moment. Il est donc dans l’intérêt de l’Utilisateur de se tenir informé des changements effectués.</p>
 
-        <h2>8. Notification d’incident</h2>
-
-        <p> Quels que soient les efforts fournis, aucune méthode de transmission sur Internet et aucune méthode de stockage électronique n'est complètement sûre. Nous ne pouvons en conséquence pas garantir une sécurité absolue.  Si nous prenions connaissance d'une brèche de la sécurité, nous avertirions les utilisateurs concernés afin qu'ils puissent prendre les mesures appropriées. Nos procédures de notification d’incident tiennent compte de nos obligations légales, qu'elles se situent au niveau national ou européen. Nous nous engageons à informer pleinement nos clients de toutes les questions relevant de la sécurité de leur compte et à leur fournir toutes les informations nécessaires pour les aider à respecter leurs propres obligations réglementaires en matière de reporting.</p>
-        <p> Aucune information personnelle de l'utilisateur du site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;n'est publiée à l'insu de l'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de <?= SITE_SELF_LINK ?> et de ses droits permettrait la transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l'utilisateur du site&nbsp;<?= SITE_SELF_LINK ?>.</p>
-
-        <h3 class="h4">Sécurité</h3>
-
-        <p> Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé, <?= SITE_SELF_LINK ?> utilise des réseaux protégés par des dispositifs standards tels que par pare-feu, la pseudonymisation, l’encryption et mot de passe.</p>
-        <p> Lors du traitement des Données Personnelles, <?= SITE_SELF_LINK ?>prend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou destruction.</p>
-
-        <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
-
-        <p> Le site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de <?= SITE_SELF_LINK ?>. Cependant, <?= SITE_SELF_LINK ?> n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.</p>
-        <p> Sauf si vous décidez de désactiver les cookies, vous acceptez que le site puisse les utiliser. Vous pouvez à tout moment désactiver ces cookies et ce gratuitement à partir des possibilités de désactivation qui vous sont offertes et rappelées ci-après, sachant que cela peut réduire ou empêcher l’accessibilité à tout ou partie des Services proposés par le site.</p>
-
-
-        <h3>9.1. « COOKIES »</h3>
-
-        <p> Un « cookie » est un petit fichier d’information envoyé sur le navigateur de l’Utilisateur et enregistré au sein du terminal de l’Utilisateur (ex : ordinateur, smartphone), (ci-après « Cookies »). Ce fichier comprend des informations telles que le nom de domaine de l’Utilisateur, le fournisseur d’accès Internet de l’Utilisateur, le système d’exploitation de l’Utilisateur, ainsi que la date et l’heure d’accès. Les Cookies ne risquent en aucun cas d’endommager le terminal de l’Utilisateur.</p>
-        <p> <?= SITE_SELF_LINK ?> est susceptible de traiter les informations de l’Utilisateur concernant sa visite du Site, telles que les pages consultées, les recherches effectuées. Ces informations permettent à <?= SITE_SELF_LINK ?> d’améliorer le contenu du Site, de la navigation de l’Utilisateur.</p>
-        <p> Les Cookies facilitant la navigation et/ou la fourniture des services proposés par le Site, l’Utilisateur peut configurer son navigateur pour qu’il lui permette de décider s’il souhaite ou non les accepter de manière à ce que des Cookies soient enregistrés dans le terminal ou, au contraire, qu’ils soient rejetés, soit systématiquement, soit selon leur émetteur. L’Utilisateur peut également configurer son logiciel de navigation de manière à ce que l’acceptation ou le refus des Cookies lui soient proposés ponctuellement, avant qu’un Cookie soit susceptible d’être enregistré dans son terminal. <?= SITE_SELF_LINK ?> informe l’Utilisateur que, dans ce cas, il se peut que les fonctionnalités de son logiciel de navigation ne soient pas toutes disponibles.</p>
-        <p> Si l’Utilisateur refuse l’enregistrement de Cookies dans son terminal ou son navigateur, ou si l’Utilisateur supprime ceux qui y sont enregistrés, l’Utilisateur est informé que sa navigation et son expérience sur le Site peuvent être limitées. Cela pourrait également être le cas lorsque <?= SITE_SELF_LINK ?> ou l’un de ses prestataires ne peut pas reconnaître, à des fins de compatibilité technique, le type de navigateur utilisé par le terminal, les paramètres de langue et d’affichage ou le pays depuis lequel le terminal semble connecté à Internet.</p>
-        <p> Le cas échéant, <?= SITE_SELF_LINK ?> décline toute responsabilité pour les conséquences liées au fonctionnement dégradé du Site et des services éventuellement proposés par <?= SITE_SELF_LINK ?>, résultant (i) du refus de Cookies par l’Utilisateur (ii) de l’impossibilité pour <?= SITE_SELF_LINK ?> d’enregistrer ou de consulter les Cookies nécessaires à leur fonctionnement du fait du choix de l’Utilisateur. Pour la gestion des Cookies et des choix de l’Utilisateur, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d’aide du navigateur, qui permettra de savoir de quelle manière l’Utilisateur peut modifier ses souhaits en matière de Cookies.</p>
-        <p> À tout moment, l’Utilisateur peut faire le choix d’exprimer et de modifier ses souhaits en matière de Cookies. <?= SITE_SELF_LINK ?> pourra en outre faire appel aux services de prestataires externes pour l’aider à recueillir et traiter les informations décrites dans cette section.</p>
-        <p> Enfin, en cliquant sur les icônes dédiées aux réseaux sociaux Twitter, Facebook, Linkedin et Google Plus figurant sur le Site de <?= SITE_SELF_LINK ?> ou dans son application mobile et si l’Utilisateur a accepté le dépôt de cookies en poursuivant sa navigation sur le Site Internet ou l’application mobile de <?= SITE_SELF_LINK ?>, Twitter, Facebook, Linkedin et Google Plus peuvent également déposer des cookies sur vos terminaux (ordinateur, tablette, téléphone portable).</p>
-        <p> Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que vous y consentiez, en continuant votre navigation sur le Site Internet ou l’application mobile de <?= SITE_SELF_LINK ?>. À tout moment, l’Utilisateur peut néanmoins revenir sur son consentement à ce que <?= SITE_SELF_LINK ?> dépose ce type de cookies.</p>
-
-        <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
-
-        <p> <?= SITE_SELF_LINK ?> peut employer occasionnellement des balises Internet (également appelées « tags », ou balises d’action, GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer par l’intermédiaire d’un partenaire spécialiste d’analyses Web susceptible de se trouver (et donc de stocker les informations correspondantes, y compris l’adresse IP de l’Utilisateur) dans un pays étranger.</p>
-        <p> Ces balises sont placées à la fois dans les publicités en ligne permettant aux internautes d’accéder au Site, et sur les différentes pages de celui-ci.  &nbsp;</p>
-        <p> Cette technologie permet à <?= SITE_SELF_LINK ?> d’évaluer les réponses des visiteurs face au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur.</p>
-        <p> Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs du Site et d’autres sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de <?= SITE_SELF_LINK ?>, et fournir d’autres services relatifs à l’utilisation de celui-ci et d’Internet.</p>
-
-
-        <h2>10. Droit applicable et attribution de juridiction.</h2>
-        <p> Tout litige en relation avec l’utilisation du site&nbsp;<?= SITE_SELF_LINK ?>&nbsp;est soumis au droit français.  En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris</p>
+        <h2 class="mt-4">CONDITIONS D’APPLICATION</h2>
+        <p>L’utilisation de ce site est régie par le droit français, quel que soit le lieu d’utilisation.</p>
+        <p>En cas de contestation éventuelle, et après l’échec de toute tentative de recherche d’une solution amiable, les tribunaux français seront seuls compétents pour connaître de ce litige.</p>
+        <p><strong><?= SITE_NAME ?> – Tous droits réservés – <?= date("Y") ?></strong></p>

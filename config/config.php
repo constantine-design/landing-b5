@@ -16,19 +16,23 @@ define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
 
 // site identity
 define('SITE_NAME', 'Demo Landing');
-define('SITE_EMAIL', 'contact@demo.com');
+define('SITE_EMAIL', 'contact-client@mymail.infos.st');
 
 // company identity in mention privasy and terms windows
-define('COMPANY_NAME', 'MULTIMEDIA SERVICES');
-define('COMPANY_ADRESS', '146 RUE LA FAYETTE 75010 PARIS');
+define('COMPANY_NAME', 'ACTION MARKETING');
+define('COMPANY_ADRESS', '680 RTE DU MEDONNET 74920 COMBLOUX');
 define('COMPANY_INFO', '
-Numéro de Siret :&nbsp;81425559200010<br>
-FORME JURIDIQUE SARL au Capital de 900 E NUMERO DE TVA INTRACOMMUNAUTAIRE FR74814255592<br>
-Carte professionnelle portant la mention "Transactions sur immeubles et fonds de commerce", n° T15883 délivrée par la préfecture de Police de Paris. : n° T15883
+SARL au capital de 7606 euros <br>
+Inscrite au registre du commerce de Annecy sous le n°479235236 <br>
+N° de TVA intracommunautaire : FR44479235236 <br>
+Directeur de la publication : Vincent lespour <br>
+Hébergement du site : OVH <br>
+Crédits photo : Thomas Pico Photographe, Ladepro, Fotolia, 123RF, Twenty20, Adobe stock, Pexels <br>
 ');
 
 // automatically determine site adress or override/edit this if you need manualiy add site self link
 define('SITE_SELF_LINK', ( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) );
+
 
 // other settings
 // -----------------------------------------
