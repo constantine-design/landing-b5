@@ -172,7 +172,6 @@ input.error { border: 1px solid #FF7C7C; }
 #form input.error,
 #form select.error {
 	margin-bottom: 2px;
-	color:  #B33A3A;
 	border-color:  #B33A3A;
 }
 #form #phone {

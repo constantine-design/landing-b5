@@ -10,7 +10,6 @@ jQuery(document).ready(function($) {
     AOS.init();
   }
 
-
   $(".testimonial-slider").slick({
   arrows: true,
   dots: false,
@@ -25,6 +24,7 @@ jQuery(document).ready(function($) {
     },
    ]
   });
+
   $(".logo-slider").slick({
     dots: false,
     arrows: false,
@@ -41,6 +41,7 @@ jQuery(document).ready(function($) {
       { breakpoint: 570, settings: { slidesToShow: 2, } },
     ]
   });
+
   $(".slider.placeholder").removeClass('placeholder');
 
   /*$("#img-slider").slick({

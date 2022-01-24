@@ -1,8 +1,5 @@
 <?php if ( !(isset($is_landing) && $is_landing==true) ) exit; ?>
 
-  <!-- Transaction Pixel -->
-  <iframe src="https://trk.webmediarm.amaretads.me/tracking/iframe/lead/60d478e406ef3a076a26ac4e" width="1" height="1" style="display:none"></iframe>
-
   <div class="container d-flex flex-column justify-content-center">
 
    <div class="row justify-content-center">

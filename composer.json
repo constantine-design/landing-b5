@@ -19,7 +19,7 @@
     ],
     "require": {
         "jackocnr/intl-tel-input": "^17.0",
-        "google/apiclient": "2.0",
+        "google/apiclient": "2.9.2",
         "twbs/bootstrap": "^4.6",
         "components/jquery": "^3.5",
         "erwane/line-awesome": "^1.3",
