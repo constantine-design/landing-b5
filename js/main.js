@@ -44,17 +44,5 @@ jQuery(document).ready(function($) {
 
   $(".slider.placeholder").removeClass('placeholder');
 
-  /*$("#img-slider").slick({
-    dots: true,
-    arrows: false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    autoplay: true,
-    pauseOnHover: false,
-  });*/
-
-
 //end script
 });

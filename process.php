@@ -105,7 +105,7 @@ if ($leadsSheetId == false) {
         "updateDimensionProperties" => [
           'range' => ["sheetId" => $leadsSheetId, "dimension" => "COLUMNS", "startIndex" => 0, "endIndex" => count($insert_names),
           ],
-          'properties' => [ 'pixelSize' => 200 ],
+          'properties' => [ 'pixelSize' => 140 ],
           'fields' => 'pixelSize',
         ]
       ])
@@ -140,7 +140,7 @@ if (empty($values)) {
   ];
 
   $requests = [
-      new Google_Service_Sheets_Request([
+      new Google_Service_Sheets_Request([ 
           'repeatCell' => [
               'fields' => 'userEnteredFormat.backgroundColor, userEnteredFormat.textFormat.bold',
               'range' => [ 'sheetId' => $leadsSheetId, 'endRowIndex' => 1, 'endColumnIndex' => count( $insert_names ), ],

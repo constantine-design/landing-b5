@@ -5,14 +5,19 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
+<!-- OG Data -->
+<meta property="og:title" content="<?= SITE_NAME ?>" />
+<meta property="og:description" content="<?= SITE_DESCRIPTON ?>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<?= SITE_SELF_LINK ?>/img/og-image.png" />
+<meta property="og:url" content="<?= SITE_SELF_LINK ?>" />
+<meta property="og:site_name" content="<?= SITE_SELF ?>" />
+
 <title><?= SITE_NAME ?></title>
 
 <!-- Favicons -->
 <link href="img/favicon.png" rel="icon">
 <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet">
 
 <!-- Bootstrap CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">

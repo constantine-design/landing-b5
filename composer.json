@@ -29,6 +29,9 @@
 		"michalsnik/aos": "2.3.4"
     },
 	"config": {
-        "component-dir": "vendor/components"
+        "component-dir": "vendor/components",
+        "allow-plugins": {
+            "robloach/component-installer": true
+        }
     }
 }

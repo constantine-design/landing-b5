@@ -4,7 +4,7 @@
 /* ---------------------------------------------------------- */
 
 // spreadsheet id, can get it from spreadsheet url
-define('SPREAD_SHEET_ID', '10CN6qGBWRtkBmLigbNvUinlIe_9m3Duj8XCYiKhX5tk');
+define('SPREAD_SHEET_ID', '');
 
 // API key file name, file should be placed in this directory
 define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
@@ -15,8 +15,9 @@ define('API_KEY_FILE_NAME', 'service_account-3f5306f1d4f7.json');
 /* ---------------------------------------------------------- */
 
 // site identity
-define('SITE_NAME', 'Demo Landing');
+define('SITE_NAME', 'ACTION MARKETING');
 define('SITE_EMAIL', 'contact-client@mymail.infos.st');
+define('SITE_DESCRIPTON', "Action marketing landing");
 
 // company identity in mention privasy and terms windows
 define('COMPANY_NAME', 'ACTION MARKETING');
@@ -32,6 +33,7 @@ Crédits photo : Thomas Pico Photographe, Ladepro, Fotolia, 123RF, Twenty20, Ado
 
 // automatically determine site adress or override/edit this if you need manualiy add site self link
 define('SITE_SELF_LINK', ( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) );
+define('SITE_SELF', preg_replace('/\/$/', '', $_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])));
 
 
 // other settings

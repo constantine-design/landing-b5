@@ -10,6 +10,12 @@
 	transform: translateY(-50%)!important;
 }
 
+/* replace with compresserd flag images for International tel input */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	form .iti__flag { background-image: url('../img/iti-compressed/flags@2x.png'); }
+}
+form .iti__flag { background-image: url('../img/iti-compressed/flags.png'); }
+
 
 /* ========================================================== */
 /*                     SLICK SLIDER THEME                     */
@@ -93,7 +99,7 @@
     display: block;
     width: 2rem;
     height: 2rem;
-		margin: 0;
+	margin: 0;
     padding: 0;
     cursor: pointer;
     color: transparent;
@@ -140,7 +146,7 @@
 	font-style: normal;
 	font-variant: normal;
 	text-rendering: auto;
-	display: block
+	display: block;
 	line-height: 1;
 	font-size: 4rem;
 	color: #aaaaaa;
@@ -156,12 +162,10 @@
 
 /* form phone field style fixes
 ------------------------------------------------ */
-.iti.iti--allow-dropdown {
-	width: 100%;
-}
-#error-msg { color: red; }
-#valid-msg { color: #00C900; }
-input.error { border: 1px solid #FF7C7C; }
+.iti.iti--allow-dropdown { width: 100%; }
+#error-msg { color: red; color: var(--danger); }
+#valid-msg { color: #00C900; color: var(--success); }
+input.error { border: 1px solid #FF7C7C; border-color: var(--success); }
 .hide { display: none!important; }
 
 /* form warning styling */
@@ -173,6 +177,7 @@ input.error { border: 1px solid #FF7C7C; }
 #form select.error {
 	margin-bottom: 2px;
 	border-color:  #B33A3A;
+	border-color: var(--danger);
 }
 #form #phone {
 	margin-bottom: 0;
@@ -186,6 +191,7 @@ input.error { border: 1px solid #FF7C7C; }
 	margin-top: 0;
 	margin-bottom: 6px;
 	color: #B33A3A;
+	color: var(--danger);
 }
 #form label.error::before {
 	content: "* ";
@@ -205,8 +211,9 @@ input#phone::-webkit-input-placeholder { color: #dedbdd; }
 	margin-top: 0;
 	margin-bottom: 6px;
 	color: #B33A3A;
+	color: var(--danger);
 }
-#valid-msg, #valid-mail { color: #558253; }
+#valid-msg, #valid-mail { color: #558253; color: var(--success); }
 #phone-msg-placeholder { color: transparent; }
 #error-msg:not(.hide):before { content: "* "; }
 
