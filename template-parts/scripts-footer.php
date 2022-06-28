@@ -5,7 +5,7 @@
 <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Libraries for visuals -->
-<script src="vendor/michalsnik/aos/dist/aos.js"></script>
+<!-- <script src="vendor/michalsnik/aos/dist/aos.js"></script> -->
 <script src="vendor/soerenkroell/composer-slick/slick/slick.min.js"></script>
 
 <?php // Add form scripts only page with form ?>

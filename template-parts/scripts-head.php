@@ -24,8 +24,8 @@
 
 <!-- Vendor Visuals CSS Files -->
 <!-- <link href="vendor/icofont/icofont.min.css" rel="stylesheet"> -->
-<link href="vendor/erwane/line-awesome/css/line-awesome.min.css" rel="stylesheet">
-<link href="vendor/michalsnik/aos/dist/aos.css" rel="stylesheet">
+<!-- <link href="vendor/erwane/line-awesome/css/line-awesome.min.css" rel="stylesheet"> -->
+<!-- <link href="vendor/michalsnik/aos/dist/aos.css" rel="stylesheet"> -->
 <link href="vendor/soerenkroell/composer-slick/slick/slick.css" rel="stylesheet">
 
 <!-- Main CSS -->

@@ -35,10 +35,6 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
   <div class="container">
     <div class="row justify-content-center align-items-center">
 
-      <div class="col-12 col-md-6 py-2 text-center">
-        <img class="img-fluid d-inline-block rounded" src="https://via.placeholder.com/800x600">
-      </div>
-
       <div class="col-12 col-md-6 py-2">
         <h2 class="mb-4 h3 text-uppercase">Les avantages du Lorem Ispum</h3>
         <div class="count-desc">
@@ -48,7 +44,67 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
         </div>
       </div>
 
+      <div class="col-12 col-md-6 py-2 text-center">
+        <img class="img-fluid d-inline-block" src="https://via.placeholder.com/800x600">
+      </div>
+
     </div>
+  </div>
+  <!-- # Section content -->
+</section>
+
+
+<!-- Section Half Image
+=============================================== -->
+<section class="my-5">
+  <!-- Section content -->
+  <div class="row no-gutters">
+
+    <div class="col-12 col-md-6" style="background: url(https://via.placeholder.com/800x600) center/cover; min-height: 25rem;">
+    </div>
+
+    <div class="col-12 col-md-6 py-2 align-self-center"> 
+      <div class="container container-half-md ml-md-0 my-4">
+        <h2 class="mb-4 h3 text-uppercase">Les avantages du Lorem Ispum</h3>
+        <div class="count-desc">
+          Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
+          Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.
+          Brume éphémère baguette Bordeaux en fait sommet avoir minitel.
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- # Section content -->
+</section>
+
+
+<!-- Section Half Color
+=============================================== -->
+<section class="my-5">
+  <!-- Section content -->
+  <div class="row no-gutters" style="min-height: 15rem">
+
+    <div class="col-12 col-md-6 py-2 d-flex flex-column justify-content-center"> 
+      <div class="container container-half-md mr-md-0 my-2">
+        <div>
+          Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
+          Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.
+          Brume éphémère baguette Bordeaux en fait sommet avoir minitel.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 py-2 bg-primary text-white d-flex flex-column justify-content-center"> 
+      <div class="container container-half-md ml-md-0 my-2">
+        <div>
+          Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
+          Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.
+          Brume éphémère baguette Bordeaux en fait sommet avoir minitel.
+        </div>
+      </div>
+    </div>
+
   </div>
   <!-- # Section content -->
 </section>

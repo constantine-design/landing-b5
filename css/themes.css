@@ -52,20 +52,27 @@ form .iti__flag { background-image: url('../img/iti-compressed/flags.png'); }
 	background: transparent;
 }
 .slick-prev:before, .slick-next:before {
-	/* add fonts symbol */
-	font-family: 'Line Awesome Free';
-	font-weight: 900;
-	-webkit-font-smoothing: antialiased;
+	content: "";
+	position: absolute; 
+	width: 1rem;
+	height: 1rem;
+	border: solid #222222;
+	border-width: 0 2px 2px 0;
 	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: 1;
-	font-size: 2rem;
-	color: #222222
+	color: #222222;
 }
-.slick-prev:before { content: "\f104" }
-.slick-next:before { content: "\f105" }
+.slick-next::before {
+	top: 0.5rem;
+	right: 0.75rem;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.slick-prev::before {
+	top: 0.5rem;
+	left: 0.75rem;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
 	color: transparent;
 	outline: none;
@@ -223,3 +230,32 @@ input#i-mail.valid + #valid-mail, input#i-mail.valid + #i-mail-error + #valid-ma
 	display: block;
 }
 #form input#i-mail.valid { margin-bottom: 2px; }
+
+
+/* ========================================================== */
+/*              ADDITIONAL BOOTSTRAP CONTAINERS               */
+/* ========================================================== */
+
+/* container half property means half of the contaler with breakpoints */
+.container-half, .container-half-lg, .container-half-md, .container-half-sm, .container-half-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+	.container-half, .container-half-sm { max-width: 270px; }
+}
+@media (min-width: 768px) {
+	.container-half, .container-half-md, .container-half-sm { max-width: 360px; }
+}
+@media (min-width: 992px) {
+	.container-half, .container-half-lg, .container-half-md, .container-half-sm { max-width: 480px; }
+}
+@media (min-width: 1200px) {
+	.container-half, .container-half-lg, .container-half-md, .container-half-sm, .container-half-xl { max-width: 570px; }
+}
+
+
+
