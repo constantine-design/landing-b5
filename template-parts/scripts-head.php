@@ -21,6 +21,7 @@
 
 <!-- Bootstrap CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="fonts/stylesheet.css" rel="stylesheet">
 
 <!-- Vendor Visuals CSS Files -->
 <!-- <link href="vendor/icofont/icofont.min.css" rel="stylesheet"> -->

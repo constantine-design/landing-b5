@@ -7,6 +7,7 @@
 <!-- Libraries for visuals -->
 <!-- <script src="vendor/michalsnik/aos/dist/aos.js"></script> -->
 <script src="vendor/soerenkroell/composer-slick/slick/slick.min.js"></script>
+<script src="vendor/pablog1/js-animated-counter/multi-animated-counter.js"></script>
 
 <?php // Add form scripts only page with form ?>
 <?php if ( isset($has_form_on_page) && $has_form_on_page==true ): ?>

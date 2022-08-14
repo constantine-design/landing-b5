@@ -15,6 +15,24 @@
                     "reference": "tags/2.3.4"
                 }
             }
+            
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "pablog1/js-animated-counter",
+                "version": "1.0",
+                "dist": {
+                    "url": "https://github.com/pablog1/js-animated-counter/archive/refs/heads/master.zip",
+                    "type": "zip"
+                },
+				"source": {
+                    "url": "git@github.com:pablog1/js-animated-counter.git",
+                    "type": "git",
+                    "reference": "tags/1.0"
+                }
+            }
+            
         }
     ],
     "require": {
@@ -26,7 +44,8 @@
         "soerenkroell/composer-slick": "^1.5",
         "chathurabuddi/jquery-validation": "^1.19",
         "igorescobar/jquery-mask-plugin": "^1.14",
-		"michalsnik/aos": "2.3.4"
+		"michalsnik/aos": "2.3.4",
+        "pablog1/js-animated-counter": "1.0"
     },
 	"config": {
         "component-dir": "vendor/components",

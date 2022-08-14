@@ -2,6 +2,8 @@
 /*                          MAIN CSS                          */
 /* ========================================================== */
 
+body { font-family: 'Gilroy'; }
+
 .hero-section {
     position: relative;
     background-image: url(https:///via.placeholder.com/1920x768.png);

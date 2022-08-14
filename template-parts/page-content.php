@@ -121,26 +121,27 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
 
 
 
-<!-- Highlight Text section
+<!-- Counter Highlight Text section
 =============================================== -->
 <section class="section bg-primary text-white py-5">
   <!-- Section content -->
   <div class="container">
     <h2 class="section-heading text-center mx-auto" style="max-width:600px;">Lorem superposés</h2>
-    <div class="row justify-content-center text-center">
+    <div id="counters_1" class="row justify-content-center text-center">
        <!-- counter -->
       <div class="col-12 col-md-4 py-2 px-5">
-        <span class='h3'>1000</span>
+        <div class="counter h3" data-TargetNum="10" data-Speed="6000"></div>
         <div class="count-desc">Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille. </div>
       </div>
        <!-- counter -->
       <div class="col-12 col-md-4 py-2 px-5">
-        <span class='h3'>1000</span>
+      <div class="counter h3" data-TargetNum="7" data-Speed="7000" data-Direction="reverse" data-Easing="linear"></div>
+
         <div class="count-desc">Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.</div>
       </div>
        <!-- counter -->
       <div class="col-12 col-md-4 py-2 px-5">
-        <span class='h3'>1000</span>
+        <div class="counter h3" data-TargetNum="80333" data-Speed="2500">0</div>
         <div class="count-desc">Brume éphémère baguette Bordeaux en fait sommet avoir minitel.</div>
       </div>
     </div>
