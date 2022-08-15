@@ -20,14 +20,14 @@
 <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
 <!-- Bootstrap CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="fonts/stylesheet.css" rel="stylesheet">
 
 <!-- Vendor Visuals CSS Files -->
 <!-- <link href="vendor/icofont/icofont.min.css" rel="stylesheet"> -->
 <!-- <link href="vendor/erwane/line-awesome/css/line-awesome.min.css" rel="stylesheet"> -->
-<!-- <link href="vendor/michalsnik/aos/dist/aos.css" rel="stylesheet"> -->
 <link href="vendor/soerenkroell/composer-slick/slick/slick.css" rel="stylesheet">
+<link href="vendor/graingert/wow/css/libs/animate.css" rel="stylesheet">
 
 <!-- Main CSS -->
 <link href="css/themes.css" rel="stylesheet">

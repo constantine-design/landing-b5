@@ -4,7 +4,7 @@
   <!-- Testimonial Item -->
   <div>
     <div class="d-sm-flex align-items-center px-sm-2">
-      <div class="text-center mr-sm-3 my-3 mt-sm-0 text-center flex-shrink-0 flex-grow-0">
+      <div class="text-center me-sm-3 my-3 mt-sm-0 text-center flex-shrink-0 flex-grow-0">
         <img class="img-fluid rounded-circle d-inline-block" src="https://via.placeholder.com/90x90/?text=IMG">
       </div>
       <div class="flex-grow-1">
@@ -16,7 +16,7 @@
   <!-- Testimonial Item -->
   <div>
     <div class="d-sm-flex align-items-center px-sm-2">
-      <div class="text-center mr-sm-3 my-3 mt-sm-0 text-center flex-shrink-0 flex-grow-0">
+      <div class="text-center me-sm-3 my-3 mt-sm-0 text-center flex-shrink-0 flex-grow-0">
         <img class="img-fluid rounded-circle d-inline-block" src="https://via.placeholder.com/90x90/?text=IMG">
       </div>
       <div class="flex-grow-1">
@@ -28,7 +28,7 @@
   <!-- Testimonial Item -->
   <div>
     <div class="d-sm-flex align-items-center px-sm-2">
-      <div class="text-center mr-sm-3 my-3 mt-sm-0 text-center flex-shrink-0 flex-grow-0">
+      <div class="text-center me-sm-3 my-3 mt-sm-0 text-center flex-shrink-0 flex-grow-0">
         <img class="img-fluid rounded-circle d-inline-block" src="https://via.placeholder.com/90x90/?text=IMG">
       </div>
       <div class="flex-grow-1">

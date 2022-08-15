@@ -5,7 +5,7 @@
 <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Libraries for visuals -->
-<!-- <script src="vendor/michalsnik/aos/dist/aos.js"></script> -->
+<script src="vendor/graingert/wow/dist/wow.js"></script>
 <script src="vendor/soerenkroell/composer-slick/slick/slick.min.js"></script>
 <script src="vendor/pablog1/js-animated-counter/multi-animated-counter.js"></script>
 

@@ -170,9 +170,9 @@ form .iti__flag { background-image: url('../img/iti-compressed/flags.png'); }
 /* form phone field style fixes
 ------------------------------------------------ */
 .iti.iti--allow-dropdown { width: 100%; }
-#error-msg { color: red; color: var(--danger); }
-#valid-msg { color: #00C900; color: var(--success); }
-input.error { border: 1px solid #FF7C7C; border-color: var(--success); }
+#error-msg { color: red; color: var(--bs-danger); }
+#valid-msg { color: #00C900; color: var(--bs-success); }
+input.error { border: 1px solid #FF7C7C; border-color: var(--bs-success); }
 .hide { display: none!important; }
 
 /* form warning styling */
@@ -184,7 +184,7 @@ input.error { border: 1px solid #FF7C7C; border-color: var(--success); }
 #form select.error {
 	margin-bottom: 2px;
 	border-color:  #B33A3A;
-	border-color: var(--danger);
+	border-color: var(--bs-danger);
 }
 #form #phone {
 	margin-bottom: 0;
@@ -198,7 +198,7 @@ input.error { border: 1px solid #FF7C7C; border-color: var(--success); }
 	margin-top: 0;
 	margin-bottom: 6px;
 	color: #B33A3A;
-	color: var(--danger);
+	color: var(--bs-danger);
 }
 #form label.error::before {
 	content: "* ";
@@ -218,9 +218,9 @@ input#phone::-webkit-input-placeholder { color: #dedbdd; }
 	margin-top: 0;
 	margin-bottom: 6px;
 	color: #B33A3A;
-	color: var(--danger);
+	color: var(--bs-danger);
 }
-#valid-msg, #valid-mail { color: #558253; color: var(--success); }
+#valid-msg, #valid-mail { color: #558253; color: var(--bs-success); }
 #phone-msg-placeholder { color: transparent; }
 #error-msg:not(.hide):before { content: "* "; }
 
@@ -239,8 +239,8 @@ input#i-mail.valid + #valid-mail, input#i-mail.valid + #i-mail-error + #valid-ma
 /* container half property means half of the contaler with breakpoints */
 .container-half, .container-half-lg, .container-half-md, .container-half-sm, .container-half-xl {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+	padding-right: calc(var(--bs-gutter-x, 1.5rem) * .5);
+    padding-left: calc(var(--bs-gutter-x, 1.5rem) * .5);
     margin-right: auto;
     margin-left: auto;
 }
@@ -255,6 +255,9 @@ input#i-mail.valid + #valid-mail, input#i-mail.valid + #i-mail-error + #valid-ma
 }
 @media (min-width: 1200px) {
 	.container-half, .container-half-lg, .container-half-md, .container-half-sm, .container-half-xl { max-width: 570px; }
+}
+@media (min-width: 1200px) {
+	.container-half, .container-half-lg, .container-half-md, .container-half-sm, .container-half-xl, .container-half-xxl { max-width: 660px; }
 }
 
 

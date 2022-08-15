@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "410d3f5f79b4ccf7e5f71755324ce2a2",
+    "content-hash": "87c10023f4acbe219b1f16c09b0dea96",
     "packages": [
         {
             "name": "chathurabuddi/jquery-validation",
@@ -291,16 +291,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.261.0",
+            "version": "v0.262.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "c91c5a694e3b8bca37136b830072a23f2c1250fa"
+                "reference": "c2e1408ba2b9e31df2d1c0b136f3247e8818874d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c91c5a694e3b8bca37136b830072a23f2c1250fa",
-                "reference": "c91c5a694e3b8bca37136b830072a23f2c1250fa",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c2e1408ba2b9e31df2d1c0b136f3247e8818874d",
+                "reference": "c2e1408ba2b9e31df2d1c0b136f3247e8818874d",
                 "shasum": ""
             },
             "require": {
@@ -329,9 +329,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.261.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.262.0"
             },
-            "time": "2022-08-08T01:28:12+00:00"
+            "time": "2022-08-14T01:06:11+00:00"
         },
         {
             "name": "google/auth",
@@ -390,6 +390,20 @@
                 "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.21.1"
             },
             "time": "2022-05-16T19:34:15+00:00"
+        },
+        {
+            "name": "graingert/wow",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:graingert/WOW.git",
+                "reference": "tags/1.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/graingert/WOW/archive/refs/heads/master.zip"
+            },
+            "type": "library"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -887,20 +901,6 @@
                 "source": "https://github.com/kriswallsmith/assetic/tree/master"
             },
             "time": "2016-11-11T18:43:20+00:00"
-        },
-        {
-            "name": "michalsnik/aos",
-            "version": "2.3.4",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:michalsnik/aos.git",
-                "reference": "tags/2.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/michalsnik/aos/archive/v2.zip"
-            },
-            "type": "library"
         },
         {
             "name": "monolog/monolog",
@@ -1704,27 +1704,22 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.6.2",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70"
+                "reference": "edf9c40956d19e6ab3f9151bfe0dfac6be06fa21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/e5643aaa89eb67327a5b4abe7db976f0ea276b70",
-                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/edf9c40956d19e6ab3f9151bfe0dfac6be06fa21",
+                "reference": "edf9c40956d19e6ab3f9151bfe0dfac6be06fa21",
                 "shasum": ""
             },
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1753,9 +1748,9 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v4.6.2"
+                "source": "https://github.com/twbs/bootstrap/tree/5.2.0"
             },
-            "time": "2022-07-19T15:13:44+00:00"
+            "time": "2022-07-19T15:43:58+00:00"
         }
     ],
     "packages-dev": [],

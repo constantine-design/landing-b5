@@ -6,8 +6,9 @@ jQuery(document).ready(function($) {
   /*                   INIT VISUAL LIBRARIES                 */
   /* ======================================================= */
 
-  if (typeof AOS !== 'undefined') {
-    AOS.init();
+  if (typeof WOW !== 'undefined') {
+    wow = new WOW;
+    wow.init();
   }
 
   $(".testimonial-slider").slick({

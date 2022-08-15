@@ -10,14 +10,14 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
   <div class="hero-content container d-flex flex-column justify-content-center">
     <div class="row" style="z-index:10;">
       <div class="col-lg-6 text-white">
-        <div class="text-center text-lg-left mb-5 mb-lg-5">
+        <div class="text-center text-lg-start mb-5 mb-lg-5">
           <img class="img-fluid mb-5" style="max-width: 150px;" src="https://via.placeholder.com/150x60/03a9f4/FFFFFF/?text=LOGO" alt="Logo">
           <h1 class="mb-4 text-uppercase">Ceci est mon titre principal</h1>
           <p class="lead mb-4">posés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.</p>
         </div>
       </div>
       <div class="col-lg-6 col-xl-5 offset-xl-1">
-        <div class="bg-white rounded-lg px-4 px-lg-5 py-5 mx-auto shadow" style="max-width:500px;" id="lead-collector">
+        <div class="bg-white rounded-4 px-4 px-lg-5 py-5 mx-auto shadow" style="max-width:500px;" id="lead-collector">
           <h3 class="text-center mt-3 mb-1 h4 text-uppercase font-weight-bold">Lorem Ispum</h3>
           <p class="text-center">Dollor set amet</p>
           <?php include __DIR__ . '/page-content-form.php'; ?>
@@ -37,7 +37,7 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
 
       <div class="col-12 col-md-6 py-2">
         <h2 class="mb-4 h3 text-uppercase">Les avantages du Lorem Ispum</h3>
-        <div class="count-desc">
+        <div>
           Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
           Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.
           Brume éphémère baguette Bordeaux en fait sommet avoir minitel.
@@ -58,13 +58,13 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
 =============================================== -->
 <section class="my-5">
   <!-- Section content -->
-  <div class="row no-gutters">
+  <div class="row g-0">
 
     <div class="col-12 col-md-6" style="background: url(https://via.placeholder.com/800x600) center/cover; min-height: 25rem;">
     </div>
 
     <div class="col-12 col-md-6 py-2 align-self-center"> 
-      <div class="container container-half-md ml-md-0 my-4">
+      <div class="container container-half-md ms-md-0 my-4">
         <h2 class="mb-4 h3 text-uppercase">Les avantages du Lorem Ispum</h3>
         <div class="count-desc">
           Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
@@ -83,10 +83,10 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
 =============================================== -->
 <section class="my-5">
   <!-- Section content -->
-  <div class="row no-gutters" style="min-height: 15rem">
+  <div class="row g-0" style="min-height: 15rem">
 
     <div class="col-12 col-md-6 py-2 d-flex flex-column justify-content-center"> 
-      <div class="container container-half-md mr-md-0 my-2">
+      <div class="container container-half-md me-md-0 my-2">
         <div>
           Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
           Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.
@@ -96,7 +96,7 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
     </div>
 
     <div class="col-12 col-md-6 py-2 bg-primary text-white d-flex flex-column justify-content-center"> 
-      <div class="container container-half-md ml-md-0 my-2">
+      <div class="container container-half-md ms-md-0 my-2">
         <div>
           Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.
           Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.
@@ -114,7 +114,7 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
 =============================================== -->
 <section id="testimonials" class="section">
   <div class="container">
-    <h2 class="section-heading text-center mx-auto" style="max-width:600px;">Témoignages</h2>
+    <h2 class="section-heading text-center mx-auto mb-4" style="max-width:600px;">Témoignages</h2>
     <?php include __DIR__ . '/page-content-testimonials.php'; ?>
   </div>
 </section>
@@ -130,18 +130,17 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
     <div id="counters_1" class="row justify-content-center text-center">
        <!-- counter -->
       <div class="col-12 col-md-4 py-2 px-5">
-        <div class="counter h3" data-TargetNum="10" data-Speed="6000"></div>
+        <div class="counter h3" data-TargetNum="6" data-Speed="3500" data-Easing="linear"></div>
         <div class="count-desc">Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille. </div>
       </div>
        <!-- counter -->
       <div class="col-12 col-md-4 py-2 px-5">
-      <div class="counter h3" data-TargetNum="7" data-Speed="7000" data-Direction="reverse" data-Easing="linear"></div>
-
+        <div class="counter h3" data-TargetNum="25" data-Speed="3500" data-Easing="linear"></div>
         <div class="count-desc">Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve une projet sentiments saperlipopette vachement le.</div>
       </div>
        <!-- counter -->
       <div class="col-12 col-md-4 py-2 px-5">
-        <div class="counter h3" data-TargetNum="80333" data-Speed="2500">0</div>
+        <div class="counter h3" data-TargetNum="100" data-Speed="3500" data-Easing="linear"></div>
         <div class="count-desc">Brume éphémère baguette Bordeaux en fait sommet avoir minitel.</div>
       </div>
     </div>
