@@ -105,7 +105,7 @@ if ($leadsSheetId == false) {
         "updateDimensionProperties" => [
           'range' => ["sheetId" => $leadsSheetId, "dimension" => "COLUMNS", "startIndex" => 0, "endIndex" => count($insert_names),
           ],
-          'properties' => [ 'pixelSize' => 140 ],
+          'properties' => [ 'pixelSize' => 150 ],
           'fields' => 'pixelSize',
         ]
       ])

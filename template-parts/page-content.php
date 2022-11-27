@@ -3,6 +3,12 @@
 if ( !(isset($is_landing) && $is_landing==true) ) exit;
 ?>
 
+<!-- Navigation  -->
+<?php include __DIR__ . '/navigation.php'; ?>
+
+<!-- Navigation Wrapper -->
+<div data-bs-spy="scroll" data-bs-target="#page-main-nav" data-bs-smooth-scroll="true">
+
 
 <!-- Hero Block
 =============================================== -->
@@ -11,14 +17,13 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
     <div class="row" style="z-index:10;">
       <div class="col-lg-6 text-white">
         <div class="text-center text-lg-start mb-5 mb-lg-5">
-          <img class="img-fluid mb-5" style="max-width: 150px;" src="https://via.placeholder.com/150x60/03a9f4/FFFFFF/?text=LOGO" alt="Logo">
           <h1 class="mb-4 text-uppercase">Ceci est mon titre principal</h1>
           <p class="lead mb-4">posés valise pourparlers rêver chiots rendez-vous naissance Eiffel myrtille.</p>
         </div>
       </div>
       <div class="col-lg-6 col-xl-5 offset-xl-1">
         <div class="bg-white rounded-4 px-4 px-lg-5 py-5 mx-auto shadow" style="max-width:500px;" id="lead-collector">
-          <h3 class="text-center mt-3 mb-1 h4 text-uppercase font-weight-bold">Lorem Ispum</h3>
+          <h3 class="text-center mt-3 mb-1 h4 text-uppercase fw-bold">Lorem Ispum</h3>
           <p class="text-center">Dollor set amet</p>
           <?php include __DIR__ . '/page-content-form.php'; ?>
         </div>
@@ -177,3 +182,7 @@ if ( !(isset($is_landing) && $is_landing==true) ) exit;
     </div>
   </div>
 </section>
+
+
+<!-- #Navigation Wrapper  -->
+</div>
